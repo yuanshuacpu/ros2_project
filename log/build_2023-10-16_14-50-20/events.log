@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000235] (motor_interface) JobQueued: {'identifier': 'motor_interface', 'dependencies': OrderedDict()}
+[0.000284] (motor_interface) JobStarted: {'identifier': 'motor_interface'}
+[0.049512] (motor_interface) JobProgress: {'identifier': 'motor_interface', 'progress': 'cmake'}
+[0.050056] (motor_interface) JobProgress: {'identifier': 'motor_interface', 'progress': 'build'}
+[0.050550] (motor_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface', '--', '-j16', '-l16'], 'cwd': '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yuan'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1223'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yuan/rm/code/Ros/my_ros2_control'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'xfce'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4659'), ('COLCON_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yuan/.fzf/bin'), ('SESSION_MANAGER', 'local/yuan:@/tmp/.ICE-unix/1014,unix/yuan:/tmp/.ICE-unix/1014'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/yuan/.Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-be293a297e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX4C65ov/agent.1222'), ('GSETTINGS_SCHEMA_DIR', '/home/yuan/data'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/yuan'), ('AMENT_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('PWD', '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble')]), 'shell': False}
+[0.095498] (motor_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099259] (-) TimerEvent: {}
+[0.199512] (-) TimerEvent: {}
+[0.222691] (motor_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.236182] (motor_interface) StdoutLine: {'line': b'-- Found hardware_interface: 2.31.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.268578] (motor_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.271238] (motor_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.278382] (motor_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.290037] (motor_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299618] (-) TimerEvent: {}
+[0.305728] (motor_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399726] (-) TimerEvent: {}
+[0.500039] (-) TimerEvent: {}
+[0.600392] (-) TimerEvent: {}
+[0.700679] (-) TimerEvent: {}
+[0.800995] (-) TimerEvent: {}
+[0.849100] (motor_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.850820] (motor_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901054] (-) TimerEvent: {}
+[0.972331] (motor_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.001154] (-) TimerEvent: {}
+[1.101435] (-) TimerEvent: {}
+[1.157315] (motor_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.201533] (-) TimerEvent: {}
+[1.218487] (motor_interface) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.220697] (motor_interface) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.221704] (motor_interface) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.273297] (motor_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.273518] (motor_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface;/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include\n'}
+[1.273609] (motor_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.274050] (motor_interface) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.274780] (motor_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.275355] (motor_interface) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.277254] (motor_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.277390] (motor_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.277741] (motor_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.280646] (motor_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301633] (-) TimerEvent: {}
+[1.352280] (motor_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.355362] (motor_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface\n'}
+[1.386714] (motor_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock_main\x1b[0m\n'}
+[1.387054] (motor_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock\x1b[0m\n'}
+[1.388549] (motor_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interface\x1b[0m\n'}
+[1.401748] (-) TimerEvent: {}
+[1.402721] (motor_interface) StdoutLine: {'line': b'[ 18%] Built target gmock_main\n'}
+[1.405211] (motor_interface) StdoutLine: {'line': b'[ 45%] Built target gmock\n'}
+[1.415899] (motor_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_motor\x1b[0m\n'}
+[1.421524] (motor_interface) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/motor_interface.dir/src/motor.cpp.o\x1b[0m\n'}
+[1.434860] (motor_interface) StdoutLine: {'line': b'[ 72%] Built target test_motor\n'}
+[1.501856] (-) TimerEvent: {}
+[1.602151] (-) TimerEvent: {}
+[1.702422] (-) TimerEvent: {}
+[1.802713] (-) TimerEvent: {}
+[1.903005] (-) TimerEvent: {}
+[2.003315] (-) TimerEvent: {}
+[2.103631] (-) TimerEvent: {}
+[2.203976] (-) TimerEvent: {}
+[2.304260] (-) TimerEvent: {}
+[2.404534] (-) TimerEvent: {}
+[2.504819] (-) TimerEvent: {}
+[2.605113] (-) TimerEvent: {}
+[2.705401] (-) TimerEvent: {}
+[2.805693] (-) TimerEvent: {}
+[2.905994] (-) TimerEvent: {}
+[3.006282] (-) TimerEvent: {}
+[3.106604] (-) TimerEvent: {}
+[3.206887] (-) TimerEvent: {}
+[3.307169] (-) TimerEvent: {}
+[3.407450] (-) TimerEvent: {}
+[3.507725] (-) TimerEvent: {}
+[3.608009] (-) TimerEvent: {}
+[3.708296] (-) TimerEvent: {}
+[3.808616] (-) TimerEvent: {}
+[3.908886] (-) TimerEvent: {}
+[4.009200] (-) TimerEvent: {}
+[4.109498] (-) TimerEvent: {}
+[4.209821] (-) TimerEvent: {}
+[4.256966] (motor_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn motor_interface::Motor::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.257289] (motor_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:66:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.257391] (motor_interface) StderrLine: {'line': b'   66 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[KserverPort = (uint16_t)std::stoul(info_.hardware_parameters["serverPort"]),\n'}
+[4.257467] (motor_interface) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.257533] (motor_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:67:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.257611] (motor_interface) StderrLine: {'line': b'   67 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[KserverIP = info_.hardware_parameters["serverIP"]};\n'}
+[4.257679] (motor_interface) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.262657] (motor_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.262827] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.262908] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.263004] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.263104] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.263168] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.263228] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.263289] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.263354] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.263456] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.263656] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.263723] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:22\x1b[m\x1b[K:\n'}
+[4.263784] (motor_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:97:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::InterfaceInfo>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.263847] (motor_interface) StderrLine: {'line': b'   97 |       RCLCPP_INFO(rclcpp::get_logger("motor_interface"), \x1b[01;35m\x1b[K"joint.command_interfaces.size=%d \\n"\x1b[m\x1b[K, \x1b[32m\x1b[Kjoint.command_interfaces.size()\x1b[m\x1b[K);\n'}
+[4.263908] (motor_interface) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.264003] (motor_interface) StderrLine: {'line': b'      |                                                                                                                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.264089] (motor_interface) StderrLine: {'line': b'      |                                                                                                                              \x1b[32m\x1b[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[4.264152] (motor_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:97:90:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.264212] (motor_interface) StderrLine: {'line': b'   97 |       RCLCPP_INFO(rclcpp::get_logger("motor_interface"), "joint.command_interfaces.size=\x1b[01;36m\x1b[K%d\x1b[m\x1b[K \\n", joint.command_interfaces.size());\n'}
+[4.264272] (motor_interface) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.264330] (motor_interface) StderrLine: {'line': b'      |                                                                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.264387] (motor_interface) StderrLine: {'line': b'      |                                                                                          \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.264469] (motor_interface) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.264532] (motor_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.264591] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.264650] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.264709] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.264776] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.264836] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.264893] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.264950] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.265032] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.265096] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.265155] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.265214] (motor_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:22\x1b[m\x1b[K:\n'}
+[4.265272] (motor_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:100:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::InterfaceInfo>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.265341] (motor_interface) StderrLine: {'line': b'  100 |       RCLCPP_INFO(rclcpp::get_logger("motor_interface"), \x1b[01;35m\x1b[K"joint.state_interfaces.size=%d \\n"\x1b[m\x1b[K, \x1b[32m\x1b[Kjoint.state_interfaces.size()\x1b[m\x1b[K);\n'}
+[4.265401] (motor_interface) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.265460] (motor_interface) StderrLine: {'line': b'      |                                                                                                                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.265516] (motor_interface) StderrLine: {'line': b'      |                                                                                                                          \x1b[32m\x1b[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[4.265575] (motor_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:100:88:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.265642] (motor_interface) StderrLine: {'line': b'  100 |       RCLCPP_INFO(rclcpp::get_logger("motor_interface"), "joint.state_interfaces.size=\x1b[01;36m\x1b[K%d\x1b[m\x1b[K \\n", joint.state_interfaces.size());\n'}
+[4.265704] (motor_interface) StderrLine: {'line': b'      |                                                                                       \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.265764] (motor_interface) StderrLine: {'line': b'      |                                                                                        \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.265823] (motor_interface) StderrLine: {'line': b'      |                                                                                        \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.265882] (motor_interface) StderrLine: {'line': b'      |                                                                                       \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.270303] (motor_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn motor_interface::Motor::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.270412] (motor_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:155:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.270482] (motor_interface) StderrLine: {'line': b'  155 |     \x1b[01;35m\x1b[KCallbackReturn::SUCCESS\x1b[m\x1b[K;\n'}
+[4.270547] (motor_interface) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.270608] (motor_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:156:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.270691] (motor_interface) StderrLine: {'line': b'  156 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[4.270774] (motor_interface) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.309930] (-) TimerEvent: {}
+[4.410214] (-) TimerEvent: {}
+[4.510486] (-) TimerEvent: {}
+[4.610803] (-) TimerEvent: {}
+[4.711133] (-) TimerEvent: {}
+[4.811410] (-) TimerEvent: {}
+[4.911699] (-) TimerEvent: {}
+[5.011989] (-) TimerEvent: {}
+[5.112274] (-) TimerEvent: {}
+[5.212553] (-) TimerEvent: {}
+[5.312858] (-) TimerEvent: {}
+[5.413150] (-) TimerEvent: {}
+[5.513430] (-) TimerEvent: {}
+[5.613697] (-) TimerEvent: {}
+[5.713982] (-) TimerEvent: {}
+[5.743394] (motor_interface) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_interface.so\x1b[0m\n'}
+[5.814087] (-) TimerEvent: {}
+[5.914371] (-) TimerEvent: {}
+[5.946225] (motor_interface) StdoutLine: {'line': b'[100%] Built target motor_interface\n'}
+[5.957769] (motor_interface) CommandEnded: {'returncode': 0}
+[5.993221] (motor_interface) JobProgress: {'identifier': 'motor_interface', 'progress': 'install'}
+[6.002593] (motor_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface'], 'cwd': '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yuan'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1223'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yuan/rm/code/Ros/my_ros2_control'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'xfce'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4659'), ('COLCON_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yuan/.fzf/bin'), ('SESSION_MANAGER', 'local/yuan:@/tmp/.ICE-unix/1014,unix/yuan:/tmp/.ICE-unix/1014'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/yuan/.Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-be293a297e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX4C65ov/agent.1222'), ('GSETTINGS_SCHEMA_DIR', '/home/yuan/data'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/yuan'), ('AMENT_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('PWD', '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble')]), 'shell': False}
+[6.009846] (motor_interface) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[6.010261] (motor_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.010472] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface//motor_interface.xml\n'}
+[6.010819] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/can_instance.hpp\n'}
+[6.010995] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/motor.hpp\n'}
+[6.011171] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/motor_instance.hpp\n'}
+[6.011275] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/visibility_control.h\n'}
+[6.011419] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/ros2_control/motor.ros2_control.xacro\n'}
+[6.011618] (motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/urdf/motor.urdf.xacro\n'}
+[6.014445] (-) TimerEvent: {}
+[6.021113] (motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/launch/rrbot.launch.py\n'}
+[6.030460] (motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/config/diffbot_controllers.yaml\n'}
+[6.039710] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/library_path.sh\n'}
+[6.039903] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/library_path.dsv\n'}
+[6.040027] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/package_run_dependencies/motor_interface\n'}
+[6.040209] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/parent_prefix_path/motor_interface\n'}
+[6.040377] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/ament_prefix_path.sh\n'}
+[6.040515] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/ament_prefix_path.dsv\n'}
+[6.040659] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/path.sh\n'}
+[6.040850] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/path.dsv\n'}
+[6.041112] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.bash\n'}
+[6.041346] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.sh\n'}
+[6.041422] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.zsh\n'}
+[6.041507] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.dsv\n'}
+[6.041592] (motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/package.dsv\n'}
+[6.050773] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/packages/motor_interface\n'}
+[6.050943] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/motor_interface\n'}
+[6.051017] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.051133] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.051259] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.051396] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/motor_interfaceConfig.cmake\n'}
+[6.051494] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/motor_interfaceConfig-version.cmake\n'}
+[6.051616] (motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/package.xml\n'}
+[6.053737] (motor_interface) CommandEnded: {'returncode': 0}
+[6.114554] (-) TimerEvent: {}
+[6.204691] (motor_interface) JobEnded: {'identifier': 'motor_interface', 'rc': 0}
+[6.205416] (-) EventReactorShutdown: {}

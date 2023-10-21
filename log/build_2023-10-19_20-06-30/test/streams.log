@@ -1,0 +1,31 @@
+[0.058s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yuan/rm/code/Ros/my_ros2_control/src/test -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuan/rm/code/Ros/my_ros2_control/install/test
+[0.064s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.064s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.064s]   contain a literal, direct call to the project() command.  Add a line of
+[0.064s]   code such as
+[0.064s] 
+[0.064s]     project(ProjectName)
+[0.064s] 
+[0.064s]   near the top of the file, but after cmake_minimum_required().
+[0.064s] 
+[0.064s]   CMake is pretending there is a "project(Project)" command on the first
+[0.064s]   line.
+[0.065s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.065s] [0m
+[0.068s] [31mCMake Error at CMakeLists.txt:2 (generate_parameter_library):
+[0.068s]   Unknown CMake command "generate_parameter_library".
+[0.068s] 
+[0.068s] [0m
+[0.068s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.068s]   No cmake_minimum_required command is present.  A line of code such as
+[0.068s] 
+[0.068s]     cmake_minimum_required(VERSION 3.22)
+[0.068s] 
+[0.068s]   should be added at the top of the file.  The version specified may be lower
+[0.068s]   if you wish to support older CMake versions for this project.  For more
+[0.068s]   information run "cmake --help-policy CMP0000".
+[0.068s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.068s] [0m
+[0.069s] -- Configuring incomplete, errors occurred!
+[0.069s] See also "/home/yuan/rm/code/Ros/my_ros2_control/build/test/CMakeFiles/CMakeOutput.log".
+[0.070s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/test' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yuan/rm/code/Ros/my_ros2_control/src/test -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuan/rm/code/Ros/my_ros2_control/install/test

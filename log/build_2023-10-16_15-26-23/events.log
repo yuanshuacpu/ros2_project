@@ -1,0 +1,592 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (-) JobUnselected: {'identifier': 'motor_interface'}
+[0.000157] (gimbal_controller) JobQueued: {'identifier': 'gimbal_controller', 'dependencies': OrderedDict()}
+[0.000182] (gimbal_controller) JobStarted: {'identifier': 'gimbal_controller'}
+[0.050106] (gimbal_controller) JobProgress: {'identifier': 'gimbal_controller', 'progress': 'cmake'}
+[0.050562] (gimbal_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller'], 'cwd': '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller', 'env': OrderedDict([('RAW_TERMINAL_COLOR_LIGHT_CYAN', '\x1b[1;36m'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yuan'), ('XDG_SEAT', 'seat0'), ('TERMINAL_COLOR_USER_INPUT_DECISION', '\\e[0;35m'), ('SSH_AGENT_PID', '1223'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('TERMINAL_COLOR_GREEN', '\\e[0;32m'), ('RAW_TERMINAL_COLOR_WHITE', '\x1b[1;37m'), ('RAW_TERMINAL_COLOR_GRAY', '\x1b[1;30m'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('ROS_WS_CACHE_SOURCED_TIME', '0'), ('OLDPWD', '/home/yuan/rm/code/Ros/my_ros2_control'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'xfce'), ('TERMINAL_COLOR_LIGHT_GREEN', '\\e[1;32m'), ('RAW_TERMINAL_COLOR_BLACK', '\x1b[0;30m'), ('RAW_TERMINAL_COLOR_LIGHT_GRAY', '\x1b[0;37m'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('TERMINAL_COLOR_BLUE', '\\e[0;34m'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('TERMINAL_COLOR_RED', '\\e[0;31m'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINAL_COLOR_LIGHT_BLUE', '\\e[1;34m'), ('TERMINAL_COLOR_CYAN', '\\e[0;36m'), ('RAW_TERMINAL_COLOR_BROWN', '\x1b[0;33m'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4659'), ('TERMINAL_COLOR_LIGHT_RED', '\\e[1;31m'), ('RAW_TERMINAL_COLOR_PURPLE', '\x1b[0;35m'), ('COLCON_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install'), ('ROS_DISTRO', 'humble'), ('TERMINAL_COLOR_NC', '\\e[0m'), ('GTK_IM_MODULE', 'fcitx'), ('TERMINAL_COLOR_LIGHT_CYAN', '\\e[1;36m'), ('LOGNAME', 'yuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RAW_TERMINAL_COLOR_LIGHT_PURPLE', '\x1b[1;35m'), ('RAW_TERMINAL_COLOR_YELLOW', '\x1b[1;33m'), ('TERMINAL_COLOR_USER_CONFIRMATION', '\\e[0;34m'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('TERMINAL_COLOR_WHITE', '\\e[1;37m'), ('TERMINAL_COLOR_GRAY', '\\e[1;30m'), ('PATH', '/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yuan/.fzf/bin'), ('SESSION_MANAGER', 'local/yuan:@/tmp/.ICE-unix/1014,unix/yuan:/tmp/.ICE-unix/1014'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('RTW_COLOR_NOTIFY_USER', '\\e[1;33m'), ('TERMINAL_COLOR_LIGHT_GRAY', '\\e[0;37m'), ('TERMINAL_COLOR_BLACK', '\\e[0;30m'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/yuan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-be293a297e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX4C65ov/agent.1222'), ('GSETTINGS_SCHEMA_DIR', '/home/yuan/data'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/yuan'), ('AMENT_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('TERMINAL_COLOR_BROWN', '\\e[0;33m'), ('ROS_WS', '/home/yuan/rm/code/Ros/my_ros2_control'), ('QT_ACCESSIBILITY', '1'), ('RAW_TERMINAL_COLOR_GREEN', '\x1b[0;32m'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TERMINAL_COLOR_PURPLE', '\\e[0;35m'), ('RAW_TERMINAL_COLOR_LIGHT_GREEN', '\x1b[1;32m'), ('TERMINAL_COLOR_USER_NOTICE', '\\e[1;33m'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('TERMINAL_COLOR_LIGHT_PURPLE', '\\e[1;35m'), ('TERMINAL_COLOR_YELLOW', '\\e[1;33m'), ('PWD', '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller'), ('RAW_TERMINAL_COLOR_BLUE', '\x1b[0;34m'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('RAW_TERMINAL_COLOR_RED', '\x1b[0;31m'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('RAW_TERMINAL_COLOR_CYAN', '\x1b[0;36m'), ('RAW_TERMINAL_COLOR_LIGHT_BLUE', '\x1b[1;34m'), ('RTW_COLOR_ERROR', '\\e[0;31m'), ('COLCON', '1'), ('RAW_TERMINAL_COLOR_LIGHT_RED', '\x1b[1;31m'), ('CMAKE_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble'), ('RAW_TERMINAL_COLOR_NC', '\x1b[0m')]), 'shell': False}
+[0.063046] (gimbal_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099282] (-) TimerEvent: {}
+[0.172027] (gimbal_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.179584] (gimbal_controller) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.3.6 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[0.183787] (gimbal_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.199383] (-) TimerEvent: {}
+[0.226295] (gimbal_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.231238] (gimbal_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.238770] (gimbal_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.250452] (gimbal_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.266865] (gimbal_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299513] (-) TimerEvent: {}
+[0.325180] (gimbal_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.327569] (gimbal_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399614] (-) TimerEvent: {}
+[0.428492] (gimbal_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.458276] (gimbal_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.499738] (-) TimerEvent: {}
+[0.506221] (gimbal_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.515547] (gimbal_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.584408] (gimbal_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.584642] (gimbal_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.599849] (-) TimerEvent: {}
+[0.652754] (gimbal_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.653544] (gimbal_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.699952] (-) TimerEvent: {}
+[0.800238] (-) TimerEvent: {}
+[0.803805] (gimbal_controller) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.837919] (gimbal_controller) StdoutLine: {'line': b'-- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.900346] (-) TimerEvent: {}
+[1.000617] (-) TimerEvent: {}
+[1.100897] (-) TimerEvent: {}
+[1.201193] (-) TimerEvent: {}
+[1.217113] (gimbal_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.31.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.300250] (gimbal_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.301263] (-) TimerEvent: {}
+[1.336044] (gimbal_controller) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.401383] (-) TimerEvent: {}
+[1.435105] (gimbal_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.437001] (gimbal_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.439306] (gimbal_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.31.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.501483] (-) TimerEvent: {}
+[1.569233] (gimbal_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.31.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.571479] (gimbal_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.575525] (gimbal_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.576333] (gimbal_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.601597] (-) TimerEvent: {}
+[1.701868] (-) TimerEvent: {}
+[1.802128] (-) TimerEvent: {}
+[1.902413] (-) TimerEvent: {}
+[2.002698] (-) TimerEvent: {}
+[2.004439] (gimbal_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.066782] (gimbal_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[2.069640] (gimbal_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller\n'}
+[2.081952] (gimbal_controller) CommandEnded: {'returncode': 0}
+[2.082654] (gimbal_controller) JobProgress: {'identifier': 'gimbal_controller', 'progress': 'build'}
+[2.083740] (gimbal_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller', '--', '-j16', '-l16'], 'cwd': '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller', 'env': OrderedDict([('RAW_TERMINAL_COLOR_LIGHT_CYAN', '\x1b[1;36m'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yuan'), ('XDG_SEAT', 'seat0'), ('TERMINAL_COLOR_USER_INPUT_DECISION', '\\e[0;35m'), ('SSH_AGENT_PID', '1223'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('TERMINAL_COLOR_GREEN', '\\e[0;32m'), ('RAW_TERMINAL_COLOR_WHITE', '\x1b[1;37m'), ('RAW_TERMINAL_COLOR_GRAY', '\x1b[1;30m'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('ROS_WS_CACHE_SOURCED_TIME', '0'), ('OLDPWD', '/home/yuan/rm/code/Ros/my_ros2_control'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'xfce'), ('TERMINAL_COLOR_LIGHT_GREEN', '\\e[1;32m'), ('RAW_TERMINAL_COLOR_BLACK', '\x1b[0;30m'), ('RAW_TERMINAL_COLOR_LIGHT_GRAY', '\x1b[0;37m'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('TERMINAL_COLOR_BLUE', '\\e[0;34m'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('TERMINAL_COLOR_RED', '\\e[0;31m'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINAL_COLOR_LIGHT_BLUE', '\\e[1;34m'), ('TERMINAL_COLOR_CYAN', '\\e[0;36m'), ('RAW_TERMINAL_COLOR_BROWN', '\x1b[0;33m'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4659'), ('TERMINAL_COLOR_LIGHT_RED', '\\e[1;31m'), ('RAW_TERMINAL_COLOR_PURPLE', '\x1b[0;35m'), ('COLCON_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install'), ('ROS_DISTRO', 'humble'), ('TERMINAL_COLOR_NC', '\\e[0m'), ('GTK_IM_MODULE', 'fcitx'), ('TERMINAL_COLOR_LIGHT_CYAN', '\\e[1;36m'), ('LOGNAME', 'yuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RAW_TERMINAL_COLOR_LIGHT_PURPLE', '\x1b[1;35m'), ('RAW_TERMINAL_COLOR_YELLOW', '\x1b[1;33m'), ('TERMINAL_COLOR_USER_CONFIRMATION', '\\e[0;34m'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('TERMINAL_COLOR_WHITE', '\\e[1;37m'), ('TERMINAL_COLOR_GRAY', '\\e[1;30m'), ('PATH', '/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yuan/.fzf/bin'), ('SESSION_MANAGER', 'local/yuan:@/tmp/.ICE-unix/1014,unix/yuan:/tmp/.ICE-unix/1014'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('RTW_COLOR_NOTIFY_USER', '\\e[1;33m'), ('TERMINAL_COLOR_LIGHT_GRAY', '\\e[0;37m'), ('TERMINAL_COLOR_BLACK', '\\e[0;30m'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/yuan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-be293a297e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX4C65ov/agent.1222'), ('GSETTINGS_SCHEMA_DIR', '/home/yuan/data'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/yuan'), ('AMENT_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('TERMINAL_COLOR_BROWN', '\\e[0;33m'), ('ROS_WS', '/home/yuan/rm/code/Ros/my_ros2_control'), ('QT_ACCESSIBILITY', '1'), ('RAW_TERMINAL_COLOR_GREEN', '\x1b[0;32m'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TERMINAL_COLOR_PURPLE', '\\e[0;35m'), ('RAW_TERMINAL_COLOR_LIGHT_GREEN', '\x1b[1;32m'), ('TERMINAL_COLOR_USER_NOTICE', '\\e[1;33m'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('TERMINAL_COLOR_LIGHT_PURPLE', '\\e[1;35m'), ('TERMINAL_COLOR_YELLOW', '\\e[1;33m'), ('PWD', '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller'), ('RAW_TERMINAL_COLOR_BLUE', '\x1b[0;34m'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('RAW_TERMINAL_COLOR_RED', '\x1b[0;31m'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('RAW_TERMINAL_COLOR_CYAN', '\x1b[0;36m'), ('RAW_TERMINAL_COLOR_LIGHT_BLUE', '\x1b[1;34m'), ('RTW_COLOR_ERROR', '\\e[0;31m'), ('COLCON', '1'), ('RAW_TERMINAL_COLOR_LIGHT_RED', '\x1b[1;31m'), ('CMAKE_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble'), ('RAW_TERMINAL_COLOR_NC', '\x1b[0m')]), 'shell': False}
+[2.102808] (-) TimerEvent: {}
+[2.135308] (gimbal_controller) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mRunning `/usr/bin/cmake -E copy /home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/validate_gimbal_controller_parameters.hpp /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp`\x1b[0m\n'}
+[2.135561] (gimbal_controller) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o\x1b[0m\n'}
+[2.135673] (gimbal_controller) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[2.135782] (gimbal_controller) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[2.152923] (gimbal_controller) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include//gimbal_controller_parameters.hpp /home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.yaml validate_gimbal_controller_parameters.hpp`\x1b[0m\n'}
+[2.202915] (-) TimerEvent: {}
+[2.303205] (-) TimerEvent: {}
+[2.325717] (gimbal_controller) StdoutLine: {'line': b'[ 33%] Built target gimbal_controller_parameters\n'}
+[2.349492] (gimbal_controller) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gimbal_controller.dir/src/gimbal_controller.cpp.o\x1b[0m\n'}
+[2.403332] (-) TimerEvent: {}
+[2.503684] (-) TimerEvent: {}
+[2.604027] (-) TimerEvent: {}
+[2.704359] (-) TimerEvent: {}
+[2.804679] (-) TimerEvent: {}
+[2.905005] (-) TimerEvent: {}
+[3.005304] (-) TimerEvent: {}
+[3.105617] (-) TimerEvent: {}
+[3.205911] (-) TimerEvent: {}
+[3.248264] (gimbal_controller) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX static library libgmock_main.a\x1b[0m\n'}
+[3.286544] (gimbal_controller) StdoutLine: {'line': b'[ 46%] Built target gmock_main\n'}
+[3.306027] (-) TimerEvent: {}
+[3.406347] (-) TimerEvent: {}
+[3.506706] (-) TimerEvent: {}
+[3.607015] (-) TimerEvent: {}
+[3.707323] (-) TimerEvent: {}
+[3.807650] (-) TimerEvent: {}
+[3.907935] (-) TimerEvent: {}
+[4.008223] (-) TimerEvent: {}
+[4.108537] (-) TimerEvent: {}
+[4.208830] (-) TimerEvent: {}
+[4.309126] (-) TimerEvent: {}
+[4.409445] (-) TimerEvent: {}
+[4.509771] (-) TimerEvent: {}
+[4.610078] (-) TimerEvent: {}
+[4.710409] (-) TimerEvent: {}
+[4.792793] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29\x1b[m\x1b[K,\n'}
+[4.792978] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[4.793050] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[4.793118] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:24:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.793182] (gimbal_controller) StderrLine: {'line': b'   24 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.793241] (gimbal_controller) StderrLine: {'line': b'      |                                                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.793297] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23\x1b[m\x1b[K,\n'}
+[4.793351] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[4.793411] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[4.793464] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.793517] (gimbal_controller) StderrLine: {'line': b'   37 | using \x1b[01;36m\x1b[KResult\x1b[m\x1b[K\n'}
+[4.793614] (gimbal_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.803516] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29\x1b[m\x1b[K,\n'}
+[4.803718] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[4.803796] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[4.803862] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.803931] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:30:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.804010] (gimbal_controller) StderrLine: {'line': b'   30 |     return \x1b[01;35m\x1b[KERROR("\'interface_name\' parameter can not start with \'blup_\'")\x1b[m\x1b[K;\n'}
+[4.804077] (gimbal_controller) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.804141] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23\x1b[m\x1b[K,\n'}
+[4.804203] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[4.804266] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[4.804359] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.804453] (gimbal_controller) StderrLine: {'line': b'   46 | \x1b[01;36m\x1b[KERROR\x1b[m\x1b[K(const std::string& format, Args... args)\n'}
+[4.804532] (gimbal_controller) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.804614] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29\x1b[m\x1b[K,\n'}
+[4.804691] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[4.804747] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[4.804807] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:33:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::OK\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.804884] (gimbal_controller) StderrLine: {'line': b'   33 |   return \x1b[01;35m\x1b[KOK\x1b[m\x1b[K;\n'}
+[4.804955] (gimbal_controller) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.805011] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23\x1b[m\x1b[K,\n'}
+[4.805063] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[4.805119] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[4.805182] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.805264] (gimbal_controller) StderrLine: {'line': b'   51 | auto static \x1b[01;36m\x1b[KOK\x1b[m\x1b[K\n'}
+[4.805347] (gimbal_controller) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.810523] (-) TimerEvent: {}
+[4.910806] (-) TimerEvent: {}
+[5.011088] (-) TimerEvent: {}
+[5.111365] (-) TimerEvent: {}
+[5.211690] (-) TimerEvent: {}
+[5.312045] (-) TimerEvent: {}
+[5.412373] (-) TimerEvent: {}
+[5.512649] (-) TimerEvent: {}
+[5.612928] (-) TimerEvent: {}
+[5.713205] (-) TimerEvent: {}
+[5.813482] (-) TimerEvent: {}
+[5.913776] (-) TimerEvent: {}
+[6.014052] (-) TimerEvent: {}
+[6.114337] (-) TimerEvent: {}
+[6.214675] (-) TimerEvent: {}
+[6.314955] (-) TimerEvent: {}
+[6.415245] (-) TimerEvent: {}
+[6.515545] (-) TimerEvent: {}
+[6.615825] (-) TimerEvent: {}
+[6.716110] (-) TimerEvent: {}
+[6.816383] (-) TimerEvent: {}
+[6.916664] (-) TimerEvent: {}
+[7.016950] (-) TimerEvent: {}
+[7.117281] (-) TimerEvent: {}
+[7.217618] (-) TimerEvent: {}
+[7.317895] (-) TimerEvent: {}
+[7.418167] (-) TimerEvent: {}
+[7.518445] (-) TimerEvent: {}
+[7.618691] (-) TimerEvent: {}
+[7.718983] (-) TimerEvent: {}
+[7.819270] (-) TimerEvent: {}
+[7.919581] (-) TimerEvent: {}
+[8.019903] (-) TimerEvent: {}
+[8.120219] (-) TimerEvent: {}
+[8.220501] (-) TimerEvent: {}
+[8.320781] (-) TimerEvent: {}
+[8.421065] (-) TimerEvent: {}
+[8.521370] (-) TimerEvent: {}
+[8.621638] (-) TimerEvent: {}
+[8.721928] (-) TimerEvent: {}
+[8.822211] (-) TimerEvent: {}
+[8.922498] (-) TimerEvent: {}
+[9.022808] (-) TimerEvent: {}
+[9.123105] (-) TimerEvent: {}
+[9.174765] (gimbal_controller) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX static library libgmock.a\x1b[0m\n'}
+[9.223217] (-) TimerEvent: {}
+[9.295644] (gimbal_controller) StdoutLine: {'line': b'[ 53%] Built target gmock\n'}
+[9.317222] (gimbal_controller) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/test_load_gimbal_controller.dir/test/test_load_gimbal_controller.cpp.o\x1b[0m\n'}
+[9.323337] (-) TimerEvent: {}
+[9.423639] (-) TimerEvent: {}
+[9.523916] (-) TimerEvent: {}
+[9.624205] (-) TimerEvent: {}
+[9.724518] (-) TimerEvent: {}
+[9.824815] (-) TimerEvent: {}
+[9.925170] (-) TimerEvent: {}
+[10.025456] (-) TimerEvent: {}
+[10.125776] (-) TimerEvent: {}
+[10.226072] (-) TimerEvent: {}
+[10.326363] (-) TimerEvent: {}
+[10.426630] (-) TimerEvent: {}
+[10.526917] (-) TimerEvent: {}
+[10.627196] (-) TimerEvent: {}
+[10.727478] (-) TimerEvent: {}
+[10.827772] (-) TimerEvent: {}
+[10.928049] (-) TimerEvent: {}
+[11.028335] (-) TimerEvent: {}
+[11.128633] (-) TimerEvent: {}
+[11.228920] (-) TimerEvent: {}
+[11.329210] (-) TimerEvent: {}
+[11.429504] (-) TimerEvent: {}
+[11.529808] (-) TimerEvent: {}
+[11.630085] (-) TimerEvent: {}
+[11.730368] (-) TimerEvent: {}
+[11.830654] (-) TimerEvent: {}
+[11.930935] (-) TimerEvent: {}
+[12.031207] (-) TimerEvent: {}
+[12.131495] (-) TimerEvent: {}
+[12.231772] (-) TimerEvent: {}
+[12.332070] (-) TimerEvent: {}
+[12.432353] (-) TimerEvent: {}
+[12.532630] (-) TimerEvent: {}
+[12.632923] (-) TimerEvent: {}
+[12.733199] (-) TimerEvent: {}
+[12.833484] (-) TimerEvent: {}
+[12.933796] (-) TimerEvent: {}
+[13.034082] (-) TimerEvent: {}
+[13.134359] (-) TimerEvent: {}
+[13.234654] (-) TimerEvent: {}
+[13.334937] (-) TimerEvent: {}
+[13.435229] (-) TimerEvent: {}
+[13.535537] (-) TimerEvent: {}
+[13.635819] (-) TimerEvent: {}
+[13.736096] (-) TimerEvent: {}
+[13.836378] (-) TimerEvent: {}
+[13.936693] (-) TimerEvent: {}
+[14.036984] (-) TimerEvent: {}
+[14.137259] (-) TimerEvent: {}
+[14.237550] (-) TimerEvent: {}
+[14.337846] (-) TimerEvent: {}
+[14.438123] (-) TimerEvent: {}
+[14.538402] (-) TimerEvent: {}
+[14.602780] (gimbal_controller) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable test_load_gimbal_controller\x1b[0m\n'}
+[14.638529] (-) TimerEvent: {}
+[14.738816] (-) TimerEvent: {}
+[14.832072] (gimbal_controller) StdoutLine: {'line': b'[ 66%] Built target test_load_gimbal_controller\n'}
+[14.838891] (-) TimerEvent: {}
+[14.939147] (-) TimerEvent: {}
+[15.039462] (-) TimerEvent: {}
+[15.139743] (-) TimerEvent: {}
+[15.240040] (-) TimerEvent: {}
+[15.340383] (-) TimerEvent: {}
+[15.440669] (-) TimerEvent: {}
+[15.541006] (-) TimerEvent: {}
+[15.641306] (-) TimerEvent: {}
+[15.741596] (-) TimerEvent: {}
+[15.841895] (-) TimerEvent: {}
+[15.942176] (-) TimerEvent: {}
+[16.042458] (-) TimerEvent: {}
+[16.142724] (-) TimerEvent: {}
+[16.242999] (-) TimerEvent: {}
+[16.343278] (-) TimerEvent: {}
+[16.443577] (-) TimerEvent: {}
+[16.543857] (-) TimerEvent: {}
+[16.644140] (-) TimerEvent: {}
+[16.744431] (-) TimerEvent: {}
+[16.844727] (-) TimerEvent: {}
+[16.945017] (-) TimerEvent: {}
+[17.045314] (-) TimerEvent: {}
+[17.145620] (-) TimerEvent: {}
+[17.245936] (-) TimerEvent: {}
+[17.346281] (-) TimerEvent: {}
+[17.446618] (-) TimerEvent: {}
+[17.522110] (gimbal_controller) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libgimbal_controller.so\x1b[0m\n'}
+[17.546744] (-) TimerEvent: {}
+[17.647061] (-) TimerEvent: {}
+[17.747343] (-) TimerEvent: {}
+[17.804236] (gimbal_controller) StdoutLine: {'line': b'[ 73%] Built target gimbal_controller\n'}
+[17.825225] (gimbal_controller) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/test_gimbal_controller.dir/test/test_gimbal_controller.cpp.o\x1b[0m\n'}
+[17.825448] (gimbal_controller) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/test_gimbal_controller_preceeding.dir/test/test_gimbal_controller_preceeding.cpp.o\x1b[0m\n'}
+[17.847459] (-) TimerEvent: {}
+[17.947762] (-) TimerEvent: {}
+[18.048074] (-) TimerEvent: {}
+[18.148345] (-) TimerEvent: {}
+[18.248634] (-) TimerEvent: {}
+[18.348938] (-) TimerEvent: {}
+[18.449262] (-) TimerEvent: {}
+[18.549543] (-) TimerEvent: {}
+[18.649851] (-) TimerEvent: {}
+[18.750131] (-) TimerEvent: {}
+[18.850411] (-) TimerEvent: {}
+[18.950698] (-) TimerEvent: {}
+[19.050987] (-) TimerEvent: {}
+[19.151273] (-) TimerEvent: {}
+[19.251614] (-) TimerEvent: {}
+[19.351912] (-) TimerEvent: {}
+[19.452193] (-) TimerEvent: {}
+[19.552482] (-) TimerEvent: {}
+[19.652778] (-) TimerEvent: {}
+[19.753096] (-) TimerEvent: {}
+[19.853432] (-) TimerEvent: {}
+[19.953763] (-) TimerEvent: {}
+[20.054080] (-) TimerEvent: {}
+[20.085273] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29\x1b[m\x1b[K,\n'}
+[20.085469] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.085588] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.085674] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15\x1b[m\x1b[K:\n'}
+[20.085744] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:24:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.085824] (gimbal_controller) StderrLine: {'line': b'   24 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[20.085912] (gimbal_controller) StderrLine: {'line': b'      |                                                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.085997] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23\x1b[m\x1b[K,\n'}
+[20.086077] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.086147] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.086215] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15\x1b[m\x1b[K:\n'}
+[20.086357] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[20.086432] (gimbal_controller) StderrLine: {'line': b'   37 | using \x1b[01;36m\x1b[KResult\x1b[m\x1b[K\n'}
+[20.086513] (gimbal_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.086735] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29\x1b[m\x1b[K,\n'}
+[20.086859] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.086978] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.087080] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15\x1b[m\x1b[K:\n'}
+[20.087191] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.087301] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:30:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.087405] (gimbal_controller) StderrLine: {'line': b'   30 |     return \x1b[01;35m\x1b[KERROR("\'interface_name\' parameter can not start with \'blup_\'")\x1b[m\x1b[K;\n'}
+[20.087501] (gimbal_controller) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.087612] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23\x1b[m\x1b[K,\n'}
+[20.087708] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.087823] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.087923] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15\x1b[m\x1b[K:\n'}
+[20.088019] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[20.088112] (gimbal_controller) StderrLine: {'line': b'   46 | \x1b[01;36m\x1b[KERROR\x1b[m\x1b[K(const std::string& format, Args... args)\n'}
+[20.088203] (gimbal_controller) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[20.088295] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29\x1b[m\x1b[K,\n'}
+[20.088406] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.088517] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.088619] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15\x1b[m\x1b[K:\n'}
+[20.088713] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:33:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::OK\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.088822] (gimbal_controller) StderrLine: {'line': b'   33 |   return \x1b[01;35m\x1b[KOK\x1b[m\x1b[K;\n'}
+[20.088920] (gimbal_controller) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[20.089020] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23\x1b[m\x1b[K,\n'}
+[20.089121] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.089216] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.089321] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15\x1b[m\x1b[K:\n'}
+[20.089423] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[20.089536] (gimbal_controller) StderrLine: {'line': b'   51 | auto static \x1b[01;36m\x1b[KOK\x1b[m\x1b[K\n'}
+[20.089662] (gimbal_controller) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[20.153659] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29\x1b[m\x1b[K,\n'}
+[20.153916] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.154057] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.154176] (-) TimerEvent: {}
+[20.154307] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[20.154599] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:24:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.154723] (gimbal_controller) StderrLine: {'line': b'   24 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[20.154814] (gimbal_controller) StderrLine: {'line': b'      |                                                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.154904] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23\x1b[m\x1b[K,\n'}
+[20.155009] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.155115] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.155206] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[20.155305] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[20.155405] (gimbal_controller) StderrLine: {'line': b'   37 | using \x1b[01;36m\x1b[KResult\x1b[m\x1b[K\n'}
+[20.155506] (gimbal_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.155601] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29\x1b[m\x1b[K,\n'}
+[20.155704] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.155806] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.155905] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[20.156003] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.156103] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:30:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.156209] (gimbal_controller) StderrLine: {'line': b'   30 |     return \x1b[01;35m\x1b[KERROR("\'interface_name\' parameter can not start with \'blup_\'")\x1b[m\x1b[K;\n'}
+[20.156321] (gimbal_controller) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.156423] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23\x1b[m\x1b[K,\n'}
+[20.156533] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.156636] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.156739] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[20.156847] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[20.156946] (gimbal_controller) StderrLine: {'line': b'   46 | \x1b[01;36m\x1b[KERROR\x1b[m\x1b[K(const std::string& format, Args... args)\n'}
+[20.157045] (gimbal_controller) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[20.157151] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29\x1b[m\x1b[K,\n'}
+[20.157256] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.157359] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.157464] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[20.157587] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:33:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::OK\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.157702] (gimbal_controller) StderrLine: {'line': b'   33 |   return \x1b[01;35m\x1b[KOK\x1b[m\x1b[K;\n'}
+[20.157802] (gimbal_controller) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[20.157903] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23\x1b[m\x1b[K,\n'}
+[20.158007] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23\x1b[m\x1b[K,\n'}
+[20.158105] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26\x1b[m\x1b[K,\n'}
+[20.158208] (gimbal_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15\x1b[m\x1b[K:\n'}
+[20.158313] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[20.158415] (gimbal_controller) StderrLine: {'line': b'   51 | auto static \x1b[01;36m\x1b[KOK\x1b[m\x1b[K\n'}
+[20.158511] (gimbal_controller) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[20.254302] (-) TimerEvent: {}
+[20.354609] (-) TimerEvent: {}
+[20.454915] (-) TimerEvent: {}
+[20.555225] (-) TimerEvent: {}
+[20.655546] (-) TimerEvent: {}
+[20.755856] (-) TimerEvent: {}
+[20.856140] (-) TimerEvent: {}
+[20.956448] (-) TimerEvent: {}
+[21.056758] (-) TimerEvent: {}
+[21.157039] (-) TimerEvent: {}
+[21.257321] (-) TimerEvent: {}
+[21.357619] (-) TimerEvent: {}
+[21.457882] (-) TimerEvent: {}
+[21.558198] (-) TimerEvent: {}
+[21.658499] (-) TimerEvent: {}
+[21.758813] (-) TimerEvent: {}
+[21.859095] (-) TimerEvent: {}
+[21.959382] (-) TimerEvent: {}
+[22.059671] (-) TimerEvent: {}
+[22.159991] (-) TimerEvent: {}
+[22.260304] (-) TimerEvent: {}
+[22.360630] (-) TimerEvent: {}
+[22.460945] (-) TimerEvent: {}
+[22.561276] (-) TimerEvent: {}
+[22.661607] (-) TimerEvent: {}
+[22.761947] (-) TimerEvent: {}
+[22.862274] (-) TimerEvent: {}
+[22.962582] (-) TimerEvent: {}
+[23.062894] (-) TimerEvent: {}
+[23.163197] (-) TimerEvent: {}
+[23.263517] (-) TimerEvent: {}
+[23.363841] (-) TimerEvent: {}
+[23.464176] (-) TimerEvent: {}
+[23.564491] (-) TimerEvent: {}
+[23.664820] (-) TimerEvent: {}
+[23.765127] (-) TimerEvent: {}
+[23.865435] (-) TimerEvent: {}
+[23.965747] (-) TimerEvent: {}
+[24.066042] (-) TimerEvent: {}
+[24.166357] (-) TimerEvent: {}
+[24.266662] (-) TimerEvent: {}
+[24.366943] (-) TimerEvent: {}
+[24.467229] (-) TimerEvent: {}
+[24.567513] (-) TimerEvent: {}
+[24.667817] (-) TimerEvent: {}
+[24.768101] (-) TimerEvent: {}
+[24.868386] (-) TimerEvent: {}
+[24.968664] (-) TimerEvent: {}
+[25.068936] (-) TimerEvent: {}
+[25.169212] (-) TimerEvent: {}
+[25.269494] (-) TimerEvent: {}
+[25.369795] (-) TimerEvent: {}
+[25.470093] (-) TimerEvent: {}
+[25.570379] (-) TimerEvent: {}
+[25.670657] (-) TimerEvent: {}
+[25.770935] (-) TimerEvent: {}
+[25.871215] (-) TimerEvent: {}
+[25.971490] (-) TimerEvent: {}
+[26.071774] (-) TimerEvent: {}
+[26.172062] (-) TimerEvent: {}
+[26.272361] (-) TimerEvent: {}
+[26.372680] (-) TimerEvent: {}
+[26.472983] (-) TimerEvent: {}
+[26.573270] (-) TimerEvent: {}
+[26.673599] (-) TimerEvent: {}
+[26.773906] (-) TimerEvent: {}
+[26.874228] (-) TimerEvent: {}
+[26.900959] (gimbal_controller) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable test_gimbal_controller_preceeding\x1b[0m\n'}
+[26.974337] (-) TimerEvent: {}
+[27.074638] (-) TimerEvent: {}
+[27.157888] (gimbal_controller) StdoutLine: {'line': b'[ 93%] Built target test_gimbal_controller_preceeding\n'}
+[27.174748] (-) TimerEvent: {}
+[27.275019] (-) TimerEvent: {}
+[27.375303] (-) TimerEvent: {}
+[27.475580] (-) TimerEvent: {}
+[27.575848] (-) TimerEvent: {}
+[27.676137] (-) TimerEvent: {}
+[27.776432] (-) TimerEvent: {}
+[27.876714] (-) TimerEvent: {}
+[27.976987] (-) TimerEvent: {}
+[28.077272] (-) TimerEvent: {}
+[28.177546] (-) TimerEvent: {}
+[28.277841] (-) TimerEvent: {}
+[28.378120] (-) TimerEvent: {}
+[28.478390] (-) TimerEvent: {}
+[28.578678] (-) TimerEvent: {}
+[28.678948] (-) TimerEvent: {}
+[28.779234] (-) TimerEvent: {}
+[28.879515] (-) TimerEvent: {}
+[28.979797] (-) TimerEvent: {}
+[29.080092] (-) TimerEvent: {}
+[29.180363] (-) TimerEvent: {}
+[29.280646] (-) TimerEvent: {}
+[29.380929] (-) TimerEvent: {}
+[29.481211] (-) TimerEvent: {}
+[29.581501] (-) TimerEvent: {}
+[29.681802] (-) TimerEvent: {}
+[29.782085] (-) TimerEvent: {}
+[29.882362] (-) TimerEvent: {}
+[29.982638] (-) TimerEvent: {}
+[30.082919] (-) TimerEvent: {}
+[30.183190] (-) TimerEvent: {}
+[30.283481] (-) TimerEvent: {}
+[30.383757] (-) TimerEvent: {}
+[30.484029] (-) TimerEvent: {}
+[30.584319] (-) TimerEvent: {}
+[30.684592] (-) TimerEvent: {}
+[30.784873] (-) TimerEvent: {}
+[30.885178] (-) TimerEvent: {}
+[30.985440] (-) TimerEvent: {}
+[31.085726] (-) TimerEvent: {}
+[31.186001] (-) TimerEvent: {}
+[31.286284] (-) TimerEvent: {}
+[31.386590] (-) TimerEvent: {}
+[31.486873] (-) TimerEvent: {}
+[31.587144] (-) TimerEvent: {}
+[31.687437] (-) TimerEvent: {}
+[31.787718] (-) TimerEvent: {}
+[31.888001] (-) TimerEvent: {}
+[31.988278] (-) TimerEvent: {}
+[32.088552] (-) TimerEvent: {}
+[32.188826] (-) TimerEvent: {}
+[32.289097] (-) TimerEvent: {}
+[32.389386] (-) TimerEvent: {}
+[32.489635] (-) TimerEvent: {}
+[32.589914] (-) TimerEvent: {}
+[32.690202] (-) TimerEvent: {}
+[32.790479] (-) TimerEvent: {}
+[32.890749] (-) TimerEvent: {}
+[32.991030] (-) TimerEvent: {}
+[33.091305] (-) TimerEvent: {}
+[33.191602] (-) TimerEvent: {}
+[33.291889] (-) TimerEvent: {}
+[33.392171] (-) TimerEvent: {}
+[33.492490] (-) TimerEvent: {}
+[33.592825] (-) TimerEvent: {}
+[33.693099] (-) TimerEvent: {}
+[33.793387] (-) TimerEvent: {}
+[33.893632] (-) TimerEvent: {}
+[33.993917] (-) TimerEvent: {}
+[34.094188] (-) TimerEvent: {}
+[34.194470] (-) TimerEvent: {}
+[34.294745] (-) TimerEvent: {}
+[34.395043] (-) TimerEvent: {}
+[34.495325] (-) TimerEvent: {}
+[34.595601] (-) TimerEvent: {}
+[34.695880] (-) TimerEvent: {}
+[34.796182] (-) TimerEvent: {}
+[34.896484] (-) TimerEvent: {}
+[34.996757] (-) TimerEvent: {}
+[35.097037] (-) TimerEvent: {}
+[35.197314] (-) TimerEvent: {}
+[35.297625] (-) TimerEvent: {}
+[35.397904] (-) TimerEvent: {}
+[35.498190] (-) TimerEvent: {}
+[35.598490] (-) TimerEvent: {}
+[35.698808] (-) TimerEvent: {}
+[35.799154] (-) TimerEvent: {}
+[35.899477] (-) TimerEvent: {}
+[35.999846] (-) TimerEvent: {}
+[36.100152] (-) TimerEvent: {}
+[36.200439] (-) TimerEvent: {}
+[36.219672] (gimbal_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_gimbal_controller\x1b[0m\n'}
+[36.300549] (-) TimerEvent: {}
+[36.400841] (-) TimerEvent: {}
+[36.501118] (-) TimerEvent: {}
+[36.566198] (gimbal_controller) StdoutLine: {'line': b'[100%] Built target test_gimbal_controller\n'}
+[36.577367] (gimbal_controller) CommandEnded: {'returncode': 0}
+[36.601208] (-) TimerEvent: {}
+[36.614914] (gimbal_controller) JobProgress: {'identifier': 'gimbal_controller', 'progress': 'install'}
+[36.626345] (gimbal_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller'], 'cwd': '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller', 'env': OrderedDict([('RAW_TERMINAL_COLOR_LIGHT_CYAN', '\x1b[1;36m'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yuan'), ('XDG_SEAT', 'seat0'), ('TERMINAL_COLOR_USER_INPUT_DECISION', '\\e[0;35m'), ('SSH_AGENT_PID', '1223'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('TERMINAL_COLOR_GREEN', '\\e[0;32m'), ('RAW_TERMINAL_COLOR_WHITE', '\x1b[1;37m'), ('RAW_TERMINAL_COLOR_GRAY', '\x1b[1;30m'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('ROS_WS_CACHE_SOURCED_TIME', '0'), ('OLDPWD', '/home/yuan/rm/code/Ros/my_ros2_control'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'xfce'), ('TERMINAL_COLOR_LIGHT_GREEN', '\\e[1;32m'), ('RAW_TERMINAL_COLOR_BLACK', '\x1b[0;30m'), ('RAW_TERMINAL_COLOR_LIGHT_GRAY', '\x1b[0;37m'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('TERMINAL_COLOR_BLUE', '\\e[0;34m'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('TERMINAL_COLOR_RED', '\\e[0;31m'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINAL_COLOR_LIGHT_BLUE', '\\e[1;34m'), ('TERMINAL_COLOR_CYAN', '\\e[0;36m'), ('RAW_TERMINAL_COLOR_BROWN', '\x1b[0;33m'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4659'), ('TERMINAL_COLOR_LIGHT_RED', '\\e[1;31m'), ('RAW_TERMINAL_COLOR_PURPLE', '\x1b[0;35m'), ('COLCON_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install'), ('ROS_DISTRO', 'humble'), ('TERMINAL_COLOR_NC', '\\e[0m'), ('GTK_IM_MODULE', 'fcitx'), ('TERMINAL_COLOR_LIGHT_CYAN', '\\e[1;36m'), ('LOGNAME', 'yuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RAW_TERMINAL_COLOR_LIGHT_PURPLE', '\x1b[1;35m'), ('RAW_TERMINAL_COLOR_YELLOW', '\x1b[1;33m'), ('TERMINAL_COLOR_USER_CONFIRMATION', '\\e[0;34m'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('TERMINAL_COLOR_WHITE', '\\e[1;37m'), ('TERMINAL_COLOR_GRAY', '\\e[1;30m'), ('PATH', '/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yuan/.fzf/bin'), ('SESSION_MANAGER', 'local/yuan:@/tmp/.ICE-unix/1014,unix/yuan:/tmp/.ICE-unix/1014'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('RTW_COLOR_NOTIFY_USER', '\\e[1;33m'), ('TERMINAL_COLOR_LIGHT_GRAY', '\\e[0;37m'), ('TERMINAL_COLOR_BLACK', '\\e[0;30m'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/yuan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-be293a297e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX4C65ov/agent.1222'), ('GSETTINGS_SCHEMA_DIR', '/home/yuan/data'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/yuan'), ('AMENT_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('TERMINAL_COLOR_BROWN', '\\e[0;33m'), ('ROS_WS', '/home/yuan/rm/code/Ros/my_ros2_control'), ('QT_ACCESSIBILITY', '1'), ('RAW_TERMINAL_COLOR_GREEN', '\x1b[0;32m'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TERMINAL_COLOR_PURPLE', '\\e[0;35m'), ('RAW_TERMINAL_COLOR_LIGHT_GREEN', '\x1b[1;32m'), ('TERMINAL_COLOR_USER_NOTICE', '\\e[1;33m'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('TERMINAL_COLOR_LIGHT_PURPLE', '\\e[1;35m'), ('TERMINAL_COLOR_YELLOW', '\\e[1;33m'), ('PWD', '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller'), ('RAW_TERMINAL_COLOR_BLUE', '\x1b[0;34m'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('RAW_TERMINAL_COLOR_RED', '\x1b[0;31m'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('RAW_TERMINAL_COLOR_CYAN', '\x1b[0;36m'), ('RAW_TERMINAL_COLOR_LIGHT_BLUE', '\x1b[1;34m'), ('RTW_COLOR_ERROR', '\\e[0;31m'), ('COLCON', '1'), ('RAW_TERMINAL_COLOR_LIGHT_RED', '\x1b[1;31m'), ('CMAKE_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble'), ('RAW_TERMINAL_COLOR_NC', '\x1b[0m')]), 'shell': False}
+[36.633294] (gimbal_controller) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[36.633724] (gimbal_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[36.634126] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller_parameters/gimbal_controller_parameters.hpp\n'}
+[36.643029] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller_parameters/validate_gimbal_controller_parameters.hpp\n'}
+[36.652451] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller//gimbal_controller.xml\n'}
+[36.661546] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib/libgimbal_controller.so\n'}
+[36.670743] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller/gimbal_controller/gimbal_controller.hpp\n'}
+[36.679455] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller/gimbal_controller/validate_gimbal_controller_parameters.hpp\n'}
+[36.688476] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller/gimbal_controller/visibility_control.h\n'}
+[36.697304] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/library_path.sh\n'}
+[36.701306] (-) TimerEvent: {}
+[36.706973] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/library_path.dsv\n'}
+[36.716150] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/package_run_dependencies/gimbal_controller\n'}
+[36.716382] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/parent_prefix_path/gimbal_controller\n'}
+[36.716558] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/ament_prefix_path.sh\n'}
+[36.716751] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/ament_prefix_path.dsv\n'}
+[36.716957] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/path.sh\n'}
+[36.717136] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/path.dsv\n'}
+[36.717317] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.bash\n'}
+[36.717503] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.sh\n'}
+[36.717705] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.zsh\n'}
+[36.717888] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.dsv\n'}
+[36.718015] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/package.dsv\n'}
+[36.727337] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/packages/gimbal_controller\n'}
+[36.727568] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gimbal_controller\n'}
+[36.736640] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[36.745828] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[36.754599] (gimbal_controller) StdoutLine: {'line': b'-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[36.763517] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/gimbal_controllerConfig.cmake\n'}
+[36.763770] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/gimbal_controllerConfig-version.cmake\n'}
+[36.763919] (gimbal_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/package.xml\n'}
+[36.766074] (gimbal_controller) CommandEnded: {'returncode': 0}
+[36.801523] (-) TimerEvent: {}
+[36.901984] (-) TimerEvent: {}
+[36.915394] (gimbal_controller) JobEnded: {'identifier': 'gimbal_controller', 'rc': 0}
+[36.916166] (-) EventReactorShutdown: {}

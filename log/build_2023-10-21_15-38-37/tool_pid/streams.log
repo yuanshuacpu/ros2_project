@@ -1,0 +1,41 @@
+[0.050s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yuan/rm/code/Ros/my_ros2_control/src/tool_pid -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid
+[0.060s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.172s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.179s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.231s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.231s] -- Configured cppcheck include dirs: /home/yuan/rm/code/Ros/my_ros2_control/src/tool_pid/include
+[0.232s] -- Configured cppcheck exclude dirs and/or files: 
+[0.232s] -- Added test 'lint_cmake' to check CMake code style
+[0.232s] -- Added test 'uncrustify' to check C / C++ code style
+[0.233s] -- Configured uncrustify additional arguments: 
+[0.233s] -- Added test 'xmllint' to check XML markup files
+[0.234s] -- Configuring done
+[0.238s] -- Generating done
+[0.239s] -- Build files have been written to: /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid
+[0.258s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yuan/rm/code/Ros/my_ros2_control/src/tool_pid -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid
+[0.259s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid -- -j16 -l16
+[0.307s] [ 50%] [32mBuilding CXX object CMakeFiles/PROJECT_NAME.dir/src/pid.cpp.o[0m
+[0.325s] [100%] [32m[1mLinking CXX shared library libPROJECT_NAME.so[0m
+[0.362s] [100%] Built target PROJECT_NAME
+[0.403s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid -- -j16 -l16
+[0.429s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid
+[0.435s] -- Install configuration: ""
+[0.436s] -- Execute custom install script
+[0.436s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/lib/libPROJECT_NAME.so
+[0.445s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/include/tool_pid/tool_pid/pid.hpp
+[0.454s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/ament_index/resource_index/package_run_dependencies/tool_pid
+[0.462s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/ament_index/resource_index/parent_prefix_path/tool_pid
+[0.471s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/environment/ament_prefix_path.sh
+[0.480s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/environment/ament_prefix_path.dsv
+[0.490s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/environment/path.sh
+[0.500s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/environment/path.dsv
+[0.509s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/local_setup.bash
+[0.518s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/local_setup.sh
+[0.527s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/local_setup.zsh
+[0.536s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/local_setup.dsv
+[0.545s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/package.dsv
+[0.554s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/ament_index/resource_index/packages/tool_pid
+[0.564s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/cmake/tool_pidConfig.cmake
+[0.573s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/cmake/tool_pidConfig-version.cmake
+[0.582s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/package.xml
+[0.593s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid

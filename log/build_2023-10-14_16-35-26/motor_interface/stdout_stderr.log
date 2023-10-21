@@ -1,0 +1,96 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found hardware_interface: 2.31.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- /home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/can_instance.hpp/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor.hpp/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface;/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target motor_interface[0m
+[ 45%] Built target gmock_main
+[ 45%] Built target gmock
+[ 54%] [32mBuilding CXX object CMakeFiles/motor_interface.dir/src/can_instance.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/motor_interface.dir/src/motor_instance.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/motor_interface.dir/src/motor.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target test_motor[0m
+[ 90%] Built target test_motor
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kmotor_interface/motor.hpp: 没有那个文件或目录
+   18 | #include [01;31m[K"motor_interface/motor.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/motor_interface.dir/build.make:90：CMakeFiles/motor_interface.dir/src/motor.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:1[m[K:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:6:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+    6 | [01;35m[Ktypedef[m[K enum Motor_Type
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:11:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   11 | [01;35m[Ktypedef[m[K struct Motor_Data_Real
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:20:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   20 | [01;35m[Ktypedef[m[K struct Motor_Data_Relate
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:27:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   27 | [01;35m[Ktypedef[m[K struct Motor_Data_Set
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:[m[K In member function ‘[01m[Kvoid Motor_Instance::Send_Data(uint8_t*)[m[K’:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:45:22:[m[K [01;35m[Kwarning: [m[Kcomparison of constant ‘[01m[K516[m[K’ with boolean expression is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbool-compare-Wbool-compare]8;;[m[K]
+   45 |     if ([01;35m[K0x201 <= id_ <= 0x204[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:45:15:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   45 |     if ([01;35m[K0x201 <= id_[m[K <= 0x204)
+      |         [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:50:27:[m[K [01;35m[Kwarning: [m[Kcomparison of constant ‘[01m[K520[m[K’ with boolean expression is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbool-compare-Wbool-compare]8;;[m[K]
+   50 |     else if ([01;35m[K0x205 <= id_ <= 0x208[m[K)
+      |              [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:50:20:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   50 |     else if ([01;35m[K0x205 <= id_[m[K <= 0x208)
+      |              [01;35m[K~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/can_instance.hpp:12[m[K,
+                 from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:1[m[K:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:6:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+    6 | [01;35m[Ktypedef[m[K enum Motor_Type
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:11:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   11 | [01;35m[Ktypedef[m[K struct Motor_Data_Real
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:20:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   20 | [01;35m[Ktypedef[m[K struct Motor_Data_Relate
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:27:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   27 | [01;35m[Ktypedef[m[K struct Motor_Data_Set
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:[m[K In constructor ‘[01m[KCan_Instance::Can_Instance(std::string, const char*, uint16_t)[m[K’:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:15:21:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_port[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   15 |     serverAddr_ = {0[01;35m[K}[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:15:21:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_addr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:15:21:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_zero[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:[m[K In member function ‘[01m[Kvoid Can_Instance::Write()[m[K’:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:109:33:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K255[m[K’ to ‘[01m[K'\37777777777'[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+  109 |         write_buf_[4] = [01;35m[K(0x1ff) & 0xff[m[K;
+      |                         [01;35m[K~~~~~~~~^~~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:176：CMakeFiles/motor_interface.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

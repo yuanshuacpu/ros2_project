@@ -1,0 +1,20 @@
+[0.050s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid -- -j16 -l16
+[0.071s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.174s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.180s] [31mCMake Error at CMakeLists.txt:20 (target_include_directories):
+[0.180s]   Cannot specify include directories for target "PROJECT_NAME" which is not
+[0.180s]   built by this project.
+[0.180s] 
+[0.180s] [0m
+[0.180s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.233s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.233s] -- Configured cppcheck include dirs: 
+[0.233s] -- Configured cppcheck exclude dirs and/or files: 
+[0.233s] -- Added test 'lint_cmake' to check CMake code style
+[0.234s] -- Added test 'uncrustify' to check C / C++ code style
+[0.234s] -- Configured uncrustify additional arguments: 
+[0.234s] -- Added test 'xmllint' to check XML markup files
+[0.235s] -- Configuring incomplete, errors occurred!
+[0.235s] See also "/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid/CMakeFiles/CMakeOutput.log".
+[0.238s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.240s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid -- -j16 -l16

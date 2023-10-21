@@ -1,0 +1,4 @@
+[0.136s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller -- -j16 -l16
+[0.188s] [ 50%] Built target gimbal_controller_parameters
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target gimbal_controller[0m
+[0.215s] [100%] Built target gimbal_controller

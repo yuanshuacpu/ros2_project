@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/yuan/rm/code/Ros/my_ros2_control/src/tool_pid/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid
+[ 50%] [32mBuilding CXX object CMakeFiles/PROJECT_NAME.dir/src/pid.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libPROJECT_NAME.so[0m
+[100%] Built target PROJECT_NAME
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/lib/libPROJECT_NAME.so
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/include/tool_pid/tool_pid/pid.hpp
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/ament_index/resource_index/package_run_dependencies/tool_pid
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/ament_index/resource_index/parent_prefix_path/tool_pid
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/environment/ament_prefix_path.sh
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/environment/ament_prefix_path.dsv
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/environment/path.sh
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/environment/path.dsv
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/local_setup.bash
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/local_setup.sh
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/local_setup.zsh
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/local_setup.dsv
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/package.dsv
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/ament_index/resource_index/packages/tool_pid
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/cmake/tool_pidConfig.cmake
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/cmake/tool_pidConfig-version.cmake
+-- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/share/tool_pid/package.xml

@@ -1,0 +1,115 @@
+[0.065s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/test:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface
+[0.075s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.183s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.188s] -- Found hardware_interface: 2.32.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.212s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.213s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.218s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.715s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.716s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.831s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.001s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.053s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.055s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.056s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.107s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.108s] -- Configured cppcheck include dirs: /home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface;/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include
+[1.108s] -- Configured cppcheck exclude dirs and/or files: 
+[1.108s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.109s] -- Added test 'lint_cmake' to check CMake code style
+[1.109s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.111s] -- Added test 'uncrustify' to check C / C++ code style
+[1.111s] -- Configured uncrustify additional arguments: 
+[1.111s] -- Added test 'xmllint' to check XML markup files
+[1.113s] -- Configuring done
+[1.159s] -- Generating done
+[1.161s] -- Build files have been written to: /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface
+[1.171s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '0': CMAKE_PREFIX_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/test:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface
+[1.172s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/test:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
+[1.214s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[1.214s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[1.215s] [35m[1mConsolidate compiler generated dependencies of target motor_interface[0m
+[1.230s] [ 18%] Built target gmock_main
+[1.232s] [ 45%] Built target gmock
+[1.244s] [35m[1mConsolidate compiler generated dependencies of target test_motor[0m
+[1.247s] [ 54%] [32mBuilding CXX object CMakeFiles/motor_interface.dir/src/motor.cpp.o[0m
+[1.262s] [ 72%] Built target test_motor
+[3.947s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn motor_interface::Motor::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[3.947s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:76:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.948s]    76 |         [01;35m[K.[m[KserverPort = (uint16_t)std::stoul(info_.hardware_parameters["serverPort"]),
+[3.948s]       |         [01;35m[K^[m[K
+[3.948s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:77:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.948s]    77 |         [01;35m[K.[m[KserverIP = info_.hardware_parameters["serverIP"]};
+[3.948s]       |         [01;35m[K^[m[K
+[3.961s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.962s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.962s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.962s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.962s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.962s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:22[m[K:
+[3.962s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type motor_interface::Motor::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.962s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:195:58:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kll[m[K’ length modifier with ‘[01m[Kf[m[K’ type character has either no effect or undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.962s]   195 |       RCLCPP_INFO(rclcpp::get_logger("motor_interface"), [01;35m[K" get velocity is %llf \n"[m[K, hw_states_velocities_[i]);
+[3.962s]       |                                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.962s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:195:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.962s]   195 |       RCLCPP_INFO(rclcpp::get_logger("motor_interface"), " get velocity is %ll[01;36m[Kf[m[K \n", hw_states_velocities_[i]);
+[3.962s]       |                                                                               [01;36m[K^[m[K
+[3.962s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:182:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.962s]   182 |       [01;35m[Kconst rclcpp::Time &time[m[K /*time*/, const rclcpp::Duration &period /*period*/)
+[3.962s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.963s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:182:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.963s]   182 |       const rclcpp::Time &time /*time*/, [01;35m[Kconst rclcpp::Duration &period[m[K /*period*/)
+[3.963s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.963s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type motor_interface::Motor::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.963s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:205:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.963s]   205 |       [01;35m[Kconst rclcpp::Time &time[m[K /*time*/, const rclcpp::Duration &period /*period*/)
+[3.963s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.963s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:205:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.963s]   205 |       const rclcpp::Time &time /*time*/, [01;35m[Kconst rclcpp::Duration &period[m[K /*period*/)
+[3.963s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.385s] [ 81%] [32m[1mLinking CXX shared library libmotor_interface.so[0m
+[5.544s] [100%] Built target motor_interface
+[5.558s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '0': CMAKE_PREFIX_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/test:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
+[5.597s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/test:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface
+[5.603s] -- Install configuration: "Debug"
+[5.604s] -- Execute custom install script
+[5.604s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface//motor_interface.xml
+[5.604s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/can_instance.hpp
+[5.604s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/motor.hpp
+[5.604s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/motor_instance.hpp
+[5.604s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/visibility_control.h
+[5.605s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/launch/gimbal_description.urdf.xacro
+[5.605s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/ros2_control/motor.ros2_control.xacro
+[5.605s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/urdf/motor.urdf.xacro
+[5.605s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/launch/gimbal.launch.py
+[5.605s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/config/gimbal_controller.yaml
+[5.605s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/library_path.sh
+[5.606s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/library_path.dsv
+[5.606s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/package_run_dependencies/motor_interface
+[5.606s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/parent_prefix_path/motor_interface
+[5.606s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/ament_prefix_path.sh
+[5.606s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/ament_prefix_path.dsv
+[5.606s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/path.sh
+[5.606s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/path.dsv
+[5.606s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.bash
+[5.607s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.sh
+[5.607s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.zsh
+[5.607s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.dsv
+[5.607s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/package.dsv
+[5.616s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/packages/motor_interface
+[5.616s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/motor_interface
+[5.616s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.616s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[5.616s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.616s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/motor_interfaceConfig.cmake
+[5.616s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/motor_interfaceConfig-version.cmake
+[5.617s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/package.xml
+[5.619s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '0': CMAKE_PREFIX_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/test:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface

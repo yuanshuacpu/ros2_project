@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target motor_interface[0m
+[ 45%] Built target gmock_main
+[ 45%] Built target gmock
+[ 63%] Built target test_motor
+[100%] Built target motor_interface
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface//motor_interface.xml

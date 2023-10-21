@@ -1,0 +1,41 @@
+[0.090s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller -- -j16 -l16
+[0.137s] [ 25%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include//gimbal_controller_parameters.hpp /home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.yaml validate_gimbal_controller_parameters.hpp`[0m
+[0.242s] Traceback (most recent call last):
+[0.242s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 188, in __init__
+[0.242s]     self.lang_str_value = func(default_value)
+[0.242s]   File "/usr/lib/python3/dist-packages/typeguard.py", line 493, in wrapper
+[0.242s]     check_argument_types(memo)
+[0.242s]   File "/usr/lib/python3/dist-packages/typeguard.py", line 462, in check_argument_types
+[0.242s]     raise TypeError(exc) from None
+[0.242s] TypeError: type of argument "s" must be one of (list, NoneType); got str instead
+[0.242s] 
+[0.242s] During handling of the above exception, another exception occurred:
+[0.242s] 
+[0.243s] Traceback (most recent call last):
+[0.243s]   File "/opt/ros/humble/bin/generate_parameter_library_cpp", line 33, in <module>
+[0.243s]     sys.exit(load_entry_point('generate-parameter-library-py==0.3.6', 'console_scripts', 'generate_parameter_library_cpp')())
+[0.243s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_cpp_header.py", line 66, in main
+[0.243s]     run(output_file, yaml_file, validate_header)
+[0.243s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_cpp_header.py", line 45, in run
+[0.243s]     gen_param_struct.parse(yaml_file, validate_header)
+[0.243s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 733, in parse
+[0.243s]     self.parse_dict(self.namespace, doc[self.namespace], [])
+[0.243s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 831, in parse_dict
+[0.243s]     self.parse_dict(key, root_map[key], nested_name)
+[0.243s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 837, in parse_dict
+[0.243s]     self.parse_params(name, root_map, nested_name)
+[0.243s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 741, in parse_params
+[0.243s]     ) = preprocess_inputs(self.language, name, value, nested_name_list)
+[0.243s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 658, in preprocess_inputs
+[0.244s]     code_gen_variable = CodeGenVariable(
+[0.244s]   File "/usr/lib/python3/dist-packages/typeguard.py", line 494, in wrapper
+[0.244s]     retval = func(*args, **kwargs)
+[0.244s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 191, in __init__
+[0.244s]     f"Parameter {param_name} has incorrect type. Expected: {defined_type}, got: {self.get_yaml_type_from_python(default_value)}"
+[0.244s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 206, in get_yaml_type_from_python
+[0.244s]     return self.conversation.python_val_to_yaml_type[str(type(arg[0]))]
+[0.244s] IndexError: string index out of range
+[0.259s] gmake[2]: *** [CMakeFiles/gimbal_controller_parameters.dir/build.make:72：gimbal_controller_parameters/include/gimbal_controller_parameters.hpp] 错误 1
+[0.259s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/gimbal_controller_parameters.dir/all] 错误 2
+[0.260s] gmake: *** [Makefile:146：all] 错误 2
+[0.297s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller -- -j16 -l16

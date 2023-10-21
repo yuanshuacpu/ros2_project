@@ -1,0 +1,9 @@
+<library path="motor_interface">
+  <class name="motor_interface/Motor"
+         type="motor_interface::Motor"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      ros2_control hardware interface: Motor.
+    </description>
+  </class>
+</library>

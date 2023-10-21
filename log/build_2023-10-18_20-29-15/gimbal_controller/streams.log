@@ -1,0 +1,292 @@
+[0.093s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller -- -j16 -l16
+[0.145s] [ 13%] Built target gimbal_controller_parameters
+[0.146s] [ 26%] Built target gmock_main
+[0.146s] [ 46%] Built target gmock
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target gimbal_controller[0m
+[0.172s] [ 60%] Built target test_load_gimbal_controller
+[0.180s] [ 73%] Built target gimbal_controller
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target test_gimbal_controller[0m
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target test_gimbal_controller_preceeding[0m
+[0.216s] [ 86%] [32mBuilding CXX object CMakeFiles/test_gimbal_controller.dir/test/test_gimbal_controller.cpp.o[0m
+[0.216s] [ 86%] [32mBuilding CXX object CMakeFiles/test_gimbal_controller_preceeding.dir/test/test_gimbal_controller_preceeding.cpp.o[0m
+[2.580s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29[m[K,
+[2.580s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.580s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.580s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[2.580s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:24:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.580s]    24 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+[2.581s]       |                                                                           [01;35m[K^[m[K
+[2.581s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23[m[K,
+[2.581s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.581s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.581s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[2.581s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.581s]    37 | using [01;36m[KResult[m[K
+[2.581s]       |       [01;36m[K^~~~~~[m[K
+[2.581s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29[m[K,
+[2.581s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.581s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.581s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[2.581s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[2.581s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:30:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.582s]    30 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+[2.582s]       |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.582s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23[m[K,
+[2.582s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.582s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.582s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[2.582s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.582s]    46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+[2.582s]       | [01;36m[K^~~~~[m[K
+[2.582s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29[m[K,
+[2.582s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.582s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.582s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[2.582s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:33:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.582s]    33 |   return [01;35m[KOK[m[K;
+[2.583s]       |          [01;35m[K^~[m[K
+[2.583s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23[m[K,
+[2.583s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.583s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.583s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[2.583s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.583s]    51 | auto static [01;36m[KOK[m[K
+[2.583s]       |             [01;36m[K^~[m[K
+[2.583s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29[m[K,
+[2.583s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.583s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.583s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15[m[K:
+[2.583s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:24:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.583s]    24 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+[2.583s]       |                                                                           [01;35m[K^[m[K
+[2.583s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23[m[K,
+[2.583s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.583s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.583s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15[m[K:
+[2.584s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.584s]    37 | using [01;36m[KResult[m[K
+[2.584s]       |       [01;36m[K^~~~~~[m[K
+[2.584s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29[m[K,
+[2.584s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.584s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.584s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15[m[K:
+[2.584s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[2.584s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:30:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.584s]    30 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+[2.584s]       |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.584s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23[m[K,
+[2.584s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.584s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.584s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15[m[K:
+[2.585s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.585s]    46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+[2.585s]       | [01;36m[K^~~~~[m[K
+[2.585s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29[m[K,
+[2.585s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.585s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.585s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15[m[K:
+[2.585s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:33:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.585s]    33 |   return [01;35m[KOK[m[K;
+[2.585s]       |          [01;35m[K^~[m[K
+[2.585s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23[m[K,
+[2.585s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:24[m[K,
+[2.585s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:26[m[K,
+[2.585s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15[m[K:
+[2.586s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.586s]    51 | auto static [01;36m[KOK[m[K
+[2.586s]       |             [01;36m[K^~[m[K
+[3.543s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[3.543s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[3.544s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[3.544s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[3.544s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:27[m[K,
+[3.544s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[3.544s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:[m[K In member function ‘[01m[Kvirtual void GimbalControllerTest_all_parameters_set_configure_success_Test::TestBody()[m[K’:
+[3.544s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:36:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct gimbal_controller::Params[m[K’ has no member named ‘[01m[Kstate_joints[m[K’
+[3.544s]    36 |   ASSERT_TRUE(controller_->params_.[01;31m[Kstate_joints[m[K.empty());
+[3.544s]       |                                    [01;31m[K^~~~~~~~~~~~[m[K
+[3.544s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1325:34:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[3.544s]  1325 |       ::testing::AssertionResult([01;36m[Kexpression[m[K)) \
+[3.544s]       |                                  [01;36m[K^~~~~~~~~~[m[K
+[3.544s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:36:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[3.544s]    36 |   [01;36m[KASSERT_TRUE[m[K(controller_->params_.state_joints.empty());
+[3.544s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[3.544s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:37:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct gimbal_controller::Params[m[K’ has no member named ‘[01m[Kinterface_name[m[K’; did you mean ‘[01m[Kcmd_interface_name[m[K’?
+[3.544s]    37 |   ASSERT_TRUE(controller_->params_.[01;31m[Kinterface_name[m[K.empty());
+[3.544s]       |                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.545s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1325:34:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[3.545s]  1325 |       ::testing::AssertionResult([01;36m[Kexpression[m[K)) \
+[3.545s]       |                                  [01;36m[K^~~~~~~~~~[m[K
+[3.545s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:37:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[3.545s]    37 |   [01;36m[KASSERT_TRUE[m[K(controller_->params_.interface_name.empty());
+[3.545s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[3.545s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:42:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct gimbal_controller::Params[m[K’ has no member named ‘[01m[Kstate_joints[m[K’
+[3.545s]    42 |   ASSERT_TRUE(controller_->params_.[01;31m[Kstate_joints[m[K.empty());
+[3.545s]       |                                    [01;31m[K^~~~~~~~~~~~[m[K
+[3.545s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1325:34:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[3.545s]  1325 |       ::testing::AssertionResult([01;36m[Kexpression[m[K)) \
+[3.545s]       |                                  [01;36m[K^~~~~~~~~~[m[K
+[3.546s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:42:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[3.546s]    42 |   [01;36m[KASSERT_TRUE[m[K(controller_->params_.state_joints.empty());
+[3.546s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[3.546s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[3.546s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[3.546s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:27[m[K,
+[3.546s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[3.546s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:44:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct gimbal_controller::Params[m[K’ has no member named ‘[01m[Kinterface_name[m[K’; did you mean ‘[01m[Kcmd_interface_name[m[K’?
+[3.546s]    44 |   ASSERT_EQ(controller_->params_.[01;31m[Kinterface_name[m[K, interface_name_);
+[3.546s]       |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.546s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[3.546s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[3.546s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[3.547s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:168:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[3.547s]   168 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[3.547s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.547s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2041:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[3.547s]  2041 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[3.547s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.547s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2057:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[3.547s]  2057 | # define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[3.547s]       |                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.547s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:44:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[3.547s]    44 |   [01;36m[KASSERT_EQ[m[K(controller_->params_.interface_name, interface_name_);
+[3.547s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.548s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:[m[K In member function ‘[01m[Kvirtual void GimbalControllerTest_activate_success_Test::TestBody()[m[K’:
+[3.548s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:76:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TestableGimbalController[m[K’ has no member named ‘[01m[Kinput_ref_[m[K’
+[3.548s]    76 |   auto msg = controller_->[01;31m[Kinput_ref_[m[K.readFromNonRT();
+[3.548s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[3.559s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:[m[K In member function ‘[01m[Kvirtual void GimbalControllerTest_test_update_logic_fast_Test::TestBody()[m[K’:
+[3.559s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:172:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TestableGimbalController[m[K’ has no member named ‘[01m[Kinput_ref_[m[K’
+[3.559s]   172 |   controller_->[01;31m[Kinput_ref_[m[K.writeFromNonRT(msg);
+[3.559s]       |                [01;31m[K^~~~~~~~~~[m[K
+[3.560s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[3.560s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[3.560s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[3.560s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[3.560s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:27[m[K,
+[3.560s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[3.560s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:180:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TestableGimbalController[m[K’ has no member named ‘[01m[Kinput_ref_[m[K’
+[3.560s]   180 |   EXPECT_TRUE(std::isnan((*(controller_->[01;31m[Kinput_ref_[m[K.readFromRT()))->displacements[0]));
+[3.560s]       |                                          [01;31m[K^~~~~~~~~~[m[K
+[3.560s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1325:34:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[3.560s]  1325 |       ::testing::AssertionResult([01;36m[Kexpression[m[K)) \
+[3.560s]       |                                  [01;36m[K^~~~~~~~~~[m[K
+[3.560s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:180:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_TRUE[m[K’
+[3.561s]   180 |   [01;36m[KEXPECT_TRUE[m[K(std::isnan((*(controller_->input_ref_.readFromRT()))->displacements[0]));
+[3.561s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[3.561s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:[m[K In member function ‘[01m[Kvirtual void GimbalControllerTest_test_update_logic_slow_Test::TestBody()[m[K’:
+[3.561s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:202:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TestableGimbalController[m[K’ has no member named ‘[01m[Kinput_ref_[m[K’
+[3.562s]   202 |   controller_->[01;31m[Kinput_ref_[m[K.writeFromNonRT(msg);
+[3.562s]       |                [01;31m[K^~~~~~~~~~[m[K
+[3.562s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[3.562s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[3.562s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[3.562s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[3.562s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:27[m[K,
+[3.562s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[3.562s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:206:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TestableGimbalController[m[K’ has no member named ‘[01m[Kinput_ref_[m[K’
+[3.562s]   206 |   ASSERT_EQ((*(controller_->[01;31m[Kinput_ref_[m[K.readFromRT()))->displacements[0], TEST_DISPLACEMENT);
+[3.562s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[3.563s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[3.563s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[3.563s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[3.563s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:168:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[3.563s]   168 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[3.563s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.563s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2041:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[3.563s]  2041 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[3.563s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.563s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2057:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[3.563s]  2057 | # define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[3.563s]       |                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.563s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:206:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[3.564s]   206 |   [01;36m[KASSERT_EQ[m[K((*(controller_->input_ref_.readFromRT()))->displacements[0], TEST_DISPLACEMENT);
+[3.564s]       |   [01;36m[K^~~~~~~~~[m[K
+[3.564s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[3.564s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[3.564s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[3.564s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[3.564s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:27[m[K,
+[3.564s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:15[m[K:
+[3.564s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:212:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TestableGimbalController[m[K’ has no member named ‘[01m[Kinput_ref_[m[K’
+[3.564s]   212 |   EXPECT_TRUE(std::isnan((*(controller_->[01;31m[Kinput_ref_[m[K.readFromRT()))->displacements[0]));
+[3.564s]       |                                          [01;31m[K^~~~~~~~~~[m[K
+[3.564s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1325:34:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[3.565s]  1325 |       ::testing::AssertionResult([01;36m[Kexpression[m[K)) \
+[3.565s]       |                                  [01;36m[K^~~~~~~~~~[m[K
+[3.565s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.cpp:212:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_TRUE[m[K’
+[3.565s]   212 |   [01;36m[KEXPECT_TRUE[m[K(std::isnan((*(controller_->input_ref_.readFromRT()))->displacements[0]));
+[3.565s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[3.567s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[3.567s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[3.567s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[3.567s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[3.568s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:27[m[K,
+[3.568s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15[m[K:
+[3.568s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:[m[K In member function ‘[01m[Kvirtual void GimbalControllerTest_all_parameters_set_configure_success_Test::TestBody()[m[K’:
+[3.568s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:36:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct gimbal_controller::Params[m[K’ has no member named ‘[01m[Kstate_joints[m[K’
+[3.568s]    36 |   ASSERT_TRUE(controller_->params_.[01;31m[Kstate_joints[m[K.empty());
+[3.568s]       |                                    [01;31m[K^~~~~~~~~~~~[m[K
+[3.568s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1325:34:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[3.568s]  1325 |       ::testing::AssertionResult([01;36m[Kexpression[m[K)) \
+[3.568s]       |                                  [01;36m[K^~~~~~~~~~[m[K
+[3.568s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:36:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[3.568s]    36 |   [01;36m[KASSERT_TRUE[m[K(controller_->params_.state_joints.empty());
+[3.568s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[3.569s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:37:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct gimbal_controller::Params[m[K’ has no member named ‘[01m[Kinterface_name[m[K’; did you mean ‘[01m[Kcmd_interface_name[m[K’?
+[3.569s]    37 |   ASSERT_TRUE(controller_->params_.[01;31m[Kinterface_name[m[K.empty());
+[3.569s]       |                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.569s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:1325:34:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_TEST_BOOLEAN_[m[K’
+[3.569s]  1325 |       ::testing::AssertionResult([01;36m[Kexpression[m[K)) \
+[3.569s]       |                                  [01;36m[K^~~~~~~~~~[m[K
+[3.569s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:37:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_TRUE[m[K’
+[3.569s]    37 |   [01;36m[KASSERT_TRUE[m[K(controller_->params_.interface_name.empty());
+[3.569s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[3.569s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[3.569s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[3.570s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[3.570s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[3.570s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller.hpp:27[m[K,
+[3.570s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:15[m[K:
+[3.570s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:42:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct gimbal_controller::Params[m[K’ has no member named ‘[01m[Kstate_joints[m[K’
+[3.570s]    42 |   ASSERT_THAT(controller_->params_.[01;31m[Kstate_joints[m[K, testing::ElementsAreArray(state_joint_names_));
+[3.570s]       |                                    [01;31m[K^~~~~~~~~~~~[m[K
+[3.570s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[3.570s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[3.570s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[3.571s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:119:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT1_[m[K’
+[3.571s]   119 |   [01;36m[KGTEST_PRED_FORMAT1_[m[K(pred_format, v1, GTEST_FATAL_FAILURE_)
+[3.571s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.571s] [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-matchers.h:4554:37:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT1[m[K’
+[3.571s]  4554 | #define ASSERT_THAT(value, matcher) [01;36m[KASSERT_PRED_FORMAT1[m[K(\
+[3.571s]       |                                     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.571s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:42:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_THAT[m[K’
+[3.571s]    42 |   [01;36m[KASSERT_THAT[m[K(controller_->params_.state_joints, testing::ElementsAreArray(state_joint_names_));
+[3.571s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[3.571s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:44:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct gimbal_controller::Params[m[K’ has no member named ‘[01m[Kinterface_name[m[K’; did you mean ‘[01m[Kcmd_interface_name[m[K’?
+[3.571s]    44 |   ASSERT_EQ(controller_->params_.[01;31m[Kinterface_name[m[K, interface_name_);
+[3.571s]       |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.571s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:77:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[3.572s]    77 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[3.572s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[3.572s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest_pred_impl.h:168:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[3.572s]   168 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[3.572s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.572s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2041:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[3.572s]  2041 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[3.572s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.572s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:2057:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[3.572s]  2057 | # define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[3.572s]       |                                [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.572s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/test_gimbal_controller_preceeding.cpp:44:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[3.572s]    44 |   [01;36m[KASSERT_EQ[m[K(controller_->params_.interface_name, interface_name_);
+[3.572s]       |   [01;36m[K^~~~~~~~~[m[K
+[4.699s] gmake[2]: *** [CMakeFiles/test_gimbal_controller_preceeding.dir/build.make:76：CMakeFiles/test_gimbal_controller_preceeding.dir/test/test_gimbal_controller_preceeding.cpp.o] 错误 1
+[4.700s] gmake[1]: *** [CMakeFiles/Makefile2:291：CMakeFiles/test_gimbal_controller_preceeding.dir/all] 错误 2
+[4.700s] gmake[1]: *** 正在等待未完成的任务....
+[6.483s] gmake[2]: *** [CMakeFiles/test_gimbal_controller.dir/build.make:76：CMakeFiles/test_gimbal_controller.dir/test/test_gimbal_controller.cpp.o] 错误 1
+[6.483s] gmake[1]: *** [CMakeFiles/Makefile2:263：CMakeFiles/test_gimbal_controller.dir/all] 错误 2
+[6.483s] gmake: *** [Makefile:146：all] 错误 2
+[6.486s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller -- -j16 -l16

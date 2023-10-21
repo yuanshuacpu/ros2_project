@@ -1,0 +1,41 @@
+[0.058s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/test:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
+[0.110s] [ 36%] Built target gmock_main
+[0.110s] [ 45%] Built target gmock
+[0.115s] [ 81%] Built target motor_interface
+[0.133s] [100%] Built target test_motor
+[0.144s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '0': CMAKE_PREFIX_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/test:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
+[0.183s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/test:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface
+[0.190s] -- Install configuration: "Debug"
+[0.190s] -- Execute custom install script
+[0.190s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface//motor_interface.xml
+[0.190s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/can_instance.hpp
+[0.191s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/motor.hpp
+[0.191s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/motor_instance.hpp
+[0.191s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/visibility_control.h
+[0.191s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/launch/gimbal_description.urdf.xacro
+[0.191s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/ros2_control/motor.ros2_control.xacro
+[0.191s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/urdf/motor.urdf.xacro
+[0.192s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/launch/gimbal.launch.py
+[0.192s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/config/gimbal_controller.yaml
+[0.192s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/library_path.sh
+[0.192s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/library_path.dsv
+[0.192s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/package_run_dependencies/motor_interface
+[0.192s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/parent_prefix_path/motor_interface
+[0.193s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/ament_prefix_path.sh
+[0.193s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/ament_prefix_path.dsv
+[0.193s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/path.sh
+[0.193s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/path.dsv
+[0.193s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.bash
+[0.194s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.sh
+[0.194s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.zsh
+[0.194s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.dsv
+[0.194s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/package.dsv
+[0.203s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/packages/motor_interface
+[0.203s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/motor_interface
+[0.204s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.204s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.204s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.204s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/motor_interfaceConfig.cmake
+[0.204s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/motor_interfaceConfig-version.cmake
+[0.204s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/package.xml
+[0.207s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '0': CMAKE_PREFIX_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller:/home/yuan/rm/code/Ros/my_ros2_control/install/test:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib:/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface

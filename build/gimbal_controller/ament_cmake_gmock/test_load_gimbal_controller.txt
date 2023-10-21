@@ -1,0 +1,32 @@
+-- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller':
+ - /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_load_gimbal_controller --gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_load_gimbal_controller.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLoadGimbalController
+[ RUN      ] TestLoadGimbalController.load_controller
+[INFO] [1697441222.303332032] [resource_manager]: Loading hardware 'TestActuatorHardware' 
+[INFO] [1697441222.304090551] [resource_manager]: Initialize hardware 'TestActuatorHardware' 
+[INFO] [1697441222.304106965] [resource_manager]: Successful initialization of hardware 'TestActuatorHardware'
+[INFO] [1697441222.304118699] [resource_manager]: Loading hardware 'TestSensorHardware' 
+[INFO] [1697441222.304170594] [resource_manager]: Initialize hardware 'TestSensorHardware' 
+[INFO] [1697441222.304181699] [resource_manager]: Successful initialization of hardware 'TestSensorHardware'
+[INFO] [1697441222.304189662] [resource_manager]: Loading hardware 'TestSystemHardware' 
+[INFO] [1697441222.304237925] [resource_manager]: Initialize hardware 'TestSystemHardware' 
+[INFO] [1697441222.304251195] [resource_manager]: Successful initialization of hardware 'TestSystemHardware'
+[WARN] [1697441222.317692000] [test_controller_manager]: 'update_rate' parameter not set, using default value.
+[INFO] [1697441222.320058705] [test_controller_manager]: Loading controller 'test_gimbal_controller'
+Exception thrown during controller's init with message: Invalid value set during initialization for parameter 'joints': Parameter 'joints' cannot be empty 
+[ERROR] [1697441222.323848577] [test_controller_manager]: Could not initialize the controller named 'test_gimbal_controller'
+[       OK ] TestLoadGimbalController.load_controller (30 ms)
+[----------] 1 test from TestLoadGimbalController (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (30 ms total)
+[  PASSED  ] 1 test.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_load_gimbal_controller.gtest.xml'
+-- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_load_gimbal_controller.gtest.xml'

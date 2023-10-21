@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/xmllint.xunit.xml
+
+File 'motor_interface.xml' is valid
+
+File 'package.xml' is valid
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/xmllint.xunit.xml'

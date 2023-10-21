@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000690] (motor_interface) JobQueued: {'identifier': 'motor_interface', 'dependencies': OrderedDict()}
+[0.000752] (motor_interface) JobStarted: {'identifier': 'motor_interface'}
+[0.053990] (motor_interface) JobProgress: {'identifier': 'motor_interface', 'progress': 'cmake'}
+[0.054560] (motor_interface) JobProgress: {'identifier': 'motor_interface', 'progress': 'build'}
+[0.055220] (motor_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface', '--', '-j16', '-l16'], 'cwd': '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yuan'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1226'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yuan/rm/code/Ros/my_ros2_control'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'xfce'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16962'), ('COLCON_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yuan/.fzf/bin'), ('SESSION_MANAGER', 'local/yuan:@/tmp/.ICE-unix/1055,unix/yuan:/tmp/.ICE-unix/1055'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/yuan/.Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-be293a297e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXGZxlgD/agent.1225'), ('GSETTINGS_SCHEMA_DIR', '/home/yuan/data'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/yuan'), ('AMENT_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('PWD', '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble')]), 'shell': False}
+[0.086990] (motor_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099703] (-) TimerEvent: {}
+[0.200163] (-) TimerEvent: {}
+[0.218453] (motor_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.224403] (motor_interface) StdoutLine: {'line': b'-- Found hardware_interface: 2.31.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.249148] (motor_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.250923] (motor_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.255634] (motor_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.264440] (motor_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.276896] (motor_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300308] (-) TimerEvent: {}
+[0.400739] (-) TimerEvent: {}
+[0.501098] (-) TimerEvent: {}
+[0.601520] (-) TimerEvent: {}
+[0.702107] (-) TimerEvent: {}
+[0.802408] (-) TimerEvent: {}
+[0.856211] (motor_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.857960] (motor_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.902534] (-) TimerEvent: {}
+[1.002309] (motor_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.002601] (-) TimerEvent: {}
+[1.102831] (-) TimerEvent: {}
+[1.142609] (motor_interface) StdoutLine: {'line': b'-- /home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/can_instance.hpp/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor.hpp/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp\n'}
+[1.142839] (motor_interface) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (target_include_directories):\n'}
+[1.142935] (motor_interface) StderrLine: {'line': b'  Cannot specify include directories for target "motor_interface" which is\n'}
+[1.142998] (motor_interface) StderrLine: {'line': b'  not built by this project.\n'}
+[1.143057] (motor_interface) StderrLine: {'line': b'\n'}
+[1.143114] (motor_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[1.192897] (motor_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.202944] (-) TimerEvent: {}
+[1.275417] (motor_interface) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.277364] (motor_interface) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.277931] (motor_interface) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.303045] (-) TimerEvent: {}
+[1.333431] (motor_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.333647] (motor_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include\n'}
+[1.333719] (motor_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.333965] (motor_interface) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.334482] (motor_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.334833] (motor_interface) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.336315] (motor_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.336421] (motor_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.336669] (motor_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.338778] (motor_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.338860] (motor_interface) StdoutLine: {'line': b'See also "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/CMakeFiles/CMakeOutput.log".\n'}
+[1.353526] (motor_interface) StderrLine: {'line': b'gmake: *** [Makefile:418\xef\xbc\x9acmake_check_build_system] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.355737] (motor_interface) CommandEnded: {'returncode': 2}
+[1.403202] (-) TimerEvent: {}
+[1.466373] (motor_interface) JobEnded: {'identifier': 'motor_interface', 'rc': 2}
+[1.477049] (-) EventReactorShutdown: {}

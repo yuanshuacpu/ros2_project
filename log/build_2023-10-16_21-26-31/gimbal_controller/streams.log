@@ -1,0 +1,88 @@
+[0.091s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller -- -j16 -l16
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.132s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.141s] [ 13%] Built target gimbal_controller_parameters
+[0.146s] [ 26%] Built target gmock_main
+[0.149s] [ 46%] Built target gmock
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target gimbal_controller[0m
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target test_load_gimbal_controller[0m
+[0.175s] [ 53%] [32mBuilding CXX object CMakeFiles/gimbal_controller.dir/src/gimbal_controller.cpp.o[0m
+[0.186s] [ 66%] Built target test_load_gimbal_controller
+[2.375s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29[m[K,
+[2.375s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23[m[K,
+[2.375s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15[m[K:
+[2.375s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:24:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.375s]    24 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+[2.375s]       |                                                                           [01;35m[K^[m[K
+[2.376s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23[m[K,
+[2.376s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23[m[K,
+[2.376s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15[m[K:
+[2.376s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.376s]    37 | using [01;36m[KResult[m[K
+[2.376s]       |       [01;36m[K^~~~~~[m[K
+[2.376s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29[m[K,
+[2.376s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23[m[K,
+[2.376s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15[m[K:
+[2.376s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[2.377s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:30:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.377s]    30 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+[2.377s]       |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.377s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23[m[K,
+[2.377s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23[m[K,
+[2.377s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15[m[K:
+[2.377s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.377s]    46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+[2.377s]       | [01;36m[K^~~~~[m[K
+[2.377s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:29[m[K,
+[2.378s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23[m[K,
+[2.378s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15[m[K:
+[2.378s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/validate_gimbal_controller_parameters.hpp:33:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.378s]    33 |   return [01;35m[KOK[m[K;
+[2.378s]       |          [01;35m[K^~[m[K
+[2.378s] In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include/gimbal_controller_parameters.hpp:23[m[K,
+[2.378s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/gimbal_controller.hpp:23[m[K,
+[2.378s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.cpp:15[m[K:
+[2.378s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.378s]    51 | auto static [01;36m[KOK[m[K
+[2.379s]       |             [01;36m[K^~[m[K
+[9.660s] [ 73%] [32m[1mLinking CXX shared library libgimbal_controller.so[0m
+[10.156s] [ 73%] Built target gimbal_controller
+[10.169s] [35m[1mConsolidate compiler generated dependencies of target test_gimbal_controller[0m
+[10.169s] [35m[1mConsolidate compiler generated dependencies of target test_gimbal_controller_preceeding[0m
+[10.191s] [ 86%] [32m[1mLinking CXX executable test_gimbal_controller_preceeding[0m
+[10.191s] [ 86%] [32m[1mLinking CXX executable test_gimbal_controller[0m
+[10.717s] [ 93%] Built target test_gimbal_controller_preceeding
+[11.050s] [100%] Built target test_gimbal_controller
+[11.063s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller -- -j16 -l16
+[11.103s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller
+[11.110s] -- Install configuration: "Debug"
+[11.110s] -- Execute custom install script
+[11.111s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller_parameters/gimbal_controller_parameters.hpp
+[11.111s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller_parameters/validate_gimbal_controller_parameters.hpp
+[11.111s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller//gimbal_controller.xml
+[11.111s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/lib/libgimbal_controller.so
+[11.111s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller/gimbal_controller/gimbal_controller.hpp
+[11.111s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller/gimbal_controller/validate_gimbal_controller_parameters.hpp
+[11.112s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller/gimbal_controller/visibility_control.h
+[11.112s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/library_path.sh
+[11.112s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/library_path.dsv
+[11.112s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/package_run_dependencies/gimbal_controller
+[11.112s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/parent_prefix_path/gimbal_controller
+[11.112s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/ament_prefix_path.sh
+[11.112s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/ament_prefix_path.dsv
+[11.112s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/path.sh
+[11.113s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/path.dsv
+[11.113s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.bash
+[11.113s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.sh
+[11.113s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.zsh
+[11.113s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.dsv
+[11.113s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/package.dsv
+[11.122s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/packages/gimbal_controller
+[11.122s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gimbal_controller
+[11.122s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.123s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.123s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[11.123s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/gimbal_controllerConfig.cmake
+[11.123s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/gimbal_controllerConfig-version.cmake
+[11.123s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/package.xml
+[11.125s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller

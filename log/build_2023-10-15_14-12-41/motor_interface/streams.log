@@ -1,0 +1,20 @@
+[0.049s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target motor_interface[0m
+[0.100s] [ 45%] Built target gmock_main
+[0.100s] [ 45%] Built target gmock
+[0.124s] [ 63%] Built target test_motor
+[0.124s] [100%] Built target motor_interface
+[0.136s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
+[0.181s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface
+[0.187s] -- Install configuration: "Debug"
+[0.188s] -- Execute custom install script
+[0.188s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface//motor_interface.xml
+[0.188s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.188s]   ament_cmake_symlink_install_directory() can't find
+[0.188s]   '/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/hardware/include/'
+[0.188s] Call Stack (most recent call first):
+[0.188s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[0.188s]   cmake_install.cmake:46 (include)
+[0.188s] 
+[0.188s] [0m
+[0.190s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface

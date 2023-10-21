@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231019-1204-Experimental"
+	Name="yuan"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="yuan"
+	OSRelease="6.2.0-34-generic"
+	OSVersion="#34~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="28609"
+	TotalPhysicalMemory="31938"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3511.45"
+	>
+	<Testing>
+		<StartDateTime>Oct 19 20:04 CST</StartDateTime>
+		<StartTestTime>1697717074</StartTestTime>
+		<TestList>
+			<Test>./lint_cmake</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/lint_cmake.xunit.xml" "--package-name" "test" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.10449</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/lint_cmake.xunit.xml" "--package-name" "test" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/src/test':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/lint_cmake.xunit.xml
+CMakeLists.txt:50: Lines should be &lt;= 140 characters long [linelength]
+
+
+1 errors
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/xmllint.xunit.xml" "--package-name" "test" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.60636</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/xmllint.xunit.xml" "--package-name" "test" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/src/test':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/xmllint.xunit.xml
+File 'package.xml' is valid
+
+File 'test.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Oct 19 20:04 CST</EndDateTime>
+		<EndTestTime>1697717077</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,1 @@
+/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/include/gimbal_controller/validate_gimbal_controller_parameters.hpp

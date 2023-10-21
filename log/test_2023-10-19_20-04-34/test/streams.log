@@ -1,0 +1,61 @@
+[0.072s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/test': /usr/bin/ctest -C RelWithDebInfo -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.079s] UpdateCTestConfiguration  from :/home/yuan/rm/code/Ros/my_ros2_control/build/test/CTestConfiguration.ini
+[0.079s] Parse Config file:/home/yuan/rm/code/Ros/my_ros2_control/build/test/CTestConfiguration.ini
+[0.079s]    Site: yuan
+[0.079s]    Build name: (empty)
+[0.079s]  Add coverage exclude regular expressions.
+[0.080s] Create new tag: 20231019-1204 - Experimental
+[0.080s] UpdateCTestConfiguration  from :/home/yuan/rm/code/Ros/my_ros2_control/build/test/CTestConfiguration.ini
+[0.080s] Parse Config file:/home/yuan/rm/code/Ros/my_ros2_control/build/test/CTestConfiguration.ini
+[0.080s] Test project /home/yuan/rm/code/Ros/my_ros2_control/build/test
+[0.080s] Constructing a list of tests
+[0.080s] Done constructing a list of tests
+[0.080s] Updating test list for fixtures
+[0.080s] Added 0 tests to meet fixture requirements
+[0.080s] Checking test dependency graph...
+[0.080s] Checking test dependency graph end
+[0.080s] test 1
+[0.080s]     Start 1: lint_cmake
+[0.080s] 
+[0.080s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/lint_cmake.xunit.xml" "--package-name" "test" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/lint_cmake.xunit.xml"
+[0.080s] 1: Test timeout computed to be: 60
+[0.122s] 1: -- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/src/test':
+[0.122s] 1:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/lint_cmake.xunit.xml
+[0.171s] 1: CMakeLists.txt:50: Lines should be <= 140 characters long [linelength]
+[0.171s] 1: 
+[0.171s] 1: 
+[0.171s] 1: 1 errors
+[0.178s] 1: -- run_test.py: return code 1
+[0.178s] 1: -- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/lint_cmake.xunit.xml'
+[0.185s] 1/2 Test #1: lint_cmake .......................***Failed    0.10 sec
+[0.185s] test 2
+[0.185s]     Start 2: xmllint
+[0.185s] 
+[0.185s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/xmllint.xunit.xml" "--package-name" "test" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/xmllint.xunit.xml"
+[0.185s] 2: Test timeout computed to be: 60
+[0.228s] 2: -- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/src/test':
+[0.228s] 2:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/xmllint.xunit.xml
+[2.776s] 2: File 'package.xml' is valid
+[2.776s] 2: 
+[2.776s] 2: File 'test.xml' is valid
+[2.776s] 2: 
+[2.776s] 2: No problems found
+[2.785s] 2: -- run_test.py: return code 0
+[2.785s] 2: -- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/test/test_results/test/xmllint.xunit.xml'
+[2.791s] 2/2 Test #2: xmllint ..........................   Passed    2.61 sec
+[2.791s] 
+[2.792s] 50% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 2
+[2.792s] 
+[2.792s] Label Time Summary:
+[2.792s] lint_cmake    =   0.10 sec*proc (1 test)
+[2.792s] linter        =   2.71 sec*proc (2 tests)
+[2.792s] xmllint       =   2.61 sec*proc (1 test)
+[2.792s] 
+[2.792s] Total Test time (real) =   2.71 sec
+[2.792s] 
+[2.792s] The following tests FAILED:
+[2.792s] 	[0;31m  1 - lint_cmake (Failed)[0;0m
+[2.794s] Errors while running CTest
+[2.794s] Output from these tests are in: /home/yuan/rm/code/Ros/my_ros2_control/build/test/Testing/Temporary/LastTest.log
+[2.794s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[2.796s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/test' returned '8': /usr/bin/ctest -C RelWithDebInfo -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="11" failures="1" disabled="0" errors="0" time="0.663" timestamp="2023-10-16T15:27:02" name="AllTests">
+  <testsuite name="GimbalControllerTest" tests="11" failures="1" disabled="0" errors="0" time="0.663" timestamp="2023-10-16T15:27:02">
+    <testcase name="all_parameters_set_configure_success" status="run" result="completed" time="0.023" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest" />
+    <testcase name="check_exported_intefaces" status="run" result="completed" time="0.013" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest" />
+    <testcase name="activate_success" status="run" result="completed" time="0.013" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest" />
+    <testcase name="update_success" status="run" result="completed" time="0.013" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest" />
+    <testcase name="deactivate_success" status="run" result="completed" time="0.013" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest" />
+    <testcase name="reactivate_success" status="run" result="completed" time="0.013" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest" />
+    <testcase name="test_setting_slow_mode_service" status="run" result="completed" time="0.014" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest" />
+    <testcase name="test_update_logic_fast" status="run" result="completed" time="0.014" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest" />
+    <testcase name="test_update_logic_slow" status="run" result="completed" time="0.014" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest" />
+    <testcase name="publish_status_success" status="run" result="completed" time="0.017" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest" />
+    <testcase name="receive_message_and_publish_updated_status" status="run" result="completed" time="0.516" timestamp="2023-10-16T15:27:02" classname="gimbal_controller.GimbalControllerTest">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;publishing to /test_gimbal_controller/commands but no node subscribes to it&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "publishing to /test_gimbal_controller/commands but no node subscribes to it" thrown in the test body.]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

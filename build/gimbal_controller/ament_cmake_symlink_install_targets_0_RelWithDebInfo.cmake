@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/libgimbal_controller.so" "TARGETS" "gimbal_controller" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

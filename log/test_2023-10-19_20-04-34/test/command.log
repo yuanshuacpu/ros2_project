@@ -1,0 +1,2 @@
+Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/test': /usr/bin/ctest -C RelWithDebInfo -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/test' returned '8': /usr/bin/ctest -C RelWithDebInfo -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

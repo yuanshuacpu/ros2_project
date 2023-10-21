@@ -1,0 +1,1 @@
+[ 25%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include//gimbal_controller_parameters.hpp /home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.yaml validate_gimbal_controller_parameters.hpp`[0m

@@ -1,0 +1,79 @@
+[0.051s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target motor_interface[0m
+[0.099s] [ 36%] Built target gmock_main
+[0.100s] [ 45%] Built target gmock
+[0.121s] [ 63%] [32mBuilding CXX object CMakeFiles/motor_interface.dir/src/can_instance.cpp.o[0m
+[0.121s] [ 72%] Built target test_motor
+[2.055s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:[m[K In constructor ‘[01m[Kcan_instance::Can_Instance::Can_Instance(std::string, const char*, uint16_t)[m[K’:
+[2.055s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:21:21:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_port[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.055s]    21 |     serverAddr_ = {0[01;35m[K}[m[K;
+[2.056s]       |                     [01;35m[K^[m[K
+[2.056s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:21:21:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_addr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.056s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:21:21:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_zero[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.058s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.059s]                  from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:2[m[K:
+[2.059s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:[m[K In member function ‘[01m[Kvoid can_instance::Can_Instance::Add_Motor_Instance(std::shared_ptr<motor_instance::Motor_Instance>)[m[K’:
+[2.059s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llX[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.059s]    44 |         RCLCPP_INFO(rclcpp::get_logger("motor_interface"), [01;35m[K"%s add 0X%llX \n"[m[K,
+[2.059s]       |                                                            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.060s]    45 |                     name_.c_str(), [32m[Kmotor_instance_ptr->Get_Id()[m[K);
+[2.060s]       |                                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.060s]       |                                                              [32m[K|[m[K
+[2.060s]       |                                                              [32m[Kuint64_t {aka long unsigned int}[m[K
+[2.060s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:44:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.060s]    44 |         RCLCPP_INFO(rclcpp::get_logger("motor_interface"), "%s add 0X[01;36m[K%llX[m[K \n",
+[2.060s]       |                                                                      [01;36m[K~~~^[m[K
+[2.060s]       |                                                                         [01;36m[K|[m[K
+[2.060s]       |                                                                         [01;36m[Klong long unsigned int[m[K
+[2.060s]       |                                                                      [32m[K%lX[m[K
+[2.060s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:[m[K In member function ‘[01m[Kvoid can_instance::Can_Instance::Write()[m[K’:
+[2.060s] [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:127:29:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K255[m[K’ to ‘[01m[K'\37777777777'[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[2.060s]   127 |             write_buf_[4] = [01;35m[K0xff[m[K;
+[2.060s]       |                             [01;35m[K^~~~[m[K
+[2.926s] [ 81%] [32m[1mLinking CXX shared library libmotor_interface.so[0m
+[3.096s] [100%] Built target motor_interface
+[3.110s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
+[3.148s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface
+[3.156s] -- Install configuration: "Debug"
+[3.156s] -- Execute custom install script
+[3.156s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface//motor_interface.xml
+[3.157s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/can_instance.hpp
+[3.157s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/motor.hpp
+[3.157s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/motor_instance.hpp
+[3.157s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/include/motor_interface/include/motor_interface/visibility_control.h
+[3.157s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/ros2_control/motor.ros2_control.xacro
+[3.158s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/urdf/motor.urdf.xacro
+[3.158s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/launch/gimbal.launch.py
+[3.158s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/config/gimbal_controller.yaml
+[3.158s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/library_path.sh
+[3.158s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/library_path.dsv
+[3.159s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/package_run_dependencies/motor_interface
+[3.159s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/parent_prefix_path/motor_interface
+[3.159s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/ament_prefix_path.sh
+[3.159s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/ament_prefix_path.dsv
+[3.159s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/path.sh
+[3.159s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/environment/path.dsv
+[3.159s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.bash
+[3.159s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.sh
+[3.160s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.zsh
+[3.160s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/local_setup.dsv
+[3.160s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/package.dsv
+[3.169s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/packages/motor_interface
+[3.169s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/motor_interface
+[3.169s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.169s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.170s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.170s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/motor_interfaceConfig.cmake
+[3.170s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/cmake/motor_interfaceConfig-version.cmake
+[3.170s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/share/motor_interface/package.xml
+[3.172s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface

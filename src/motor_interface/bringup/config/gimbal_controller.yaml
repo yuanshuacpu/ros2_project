@@ -1,0 +1,18 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000 # Hz
+
+    gimbal_controller:
+      type: gimbal_controller/GimbalController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+
+gimbal_controller:
+  ros__parameters:
+    joints: ["M2006_201_Gimbal1"]
+    state_interface_name: ["position","velocity"]
+    cmd_interface_name: ["effort"]
+
+

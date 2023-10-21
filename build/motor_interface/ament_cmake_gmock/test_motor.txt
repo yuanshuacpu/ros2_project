@@ -1,0 +1,22 @@
+-- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface':
+ - /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_motor --gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/test_motor.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestMotor
+[ RUN      ] TestMotor.load_motor_2dof
+[INFO] [1697027171.337241831] [resource_manager]: Loading hardware 'Motor2dof' 
+[INFO] [1697027171.337519744] [resource_manager]: Initialize hardware 'Motor2dof' 
+[INFO] [1697027171.337534901] [resource_manager]: Successful initialization of hardware 'Motor2dof'
+[       OK ] TestMotor.load_motor_2dof (1 ms)
+[----------] 1 test from TestMotor (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/test_motor.gtest.xml'
+-- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/test_motor.gtest.xml'

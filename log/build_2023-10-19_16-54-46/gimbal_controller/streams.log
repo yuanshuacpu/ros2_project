@@ -1,0 +1,38 @@
+[0.103s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller -- -j16 -l16
+[0.153s] [ 50%] Built target gimbal_controller_parameters
+[0.176s] [100%] Built target gimbal_controller
+[0.187s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller -- -j16 -l16
+[0.225s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller
+[0.233s] -- Install configuration: "Debug"
+[0.233s] -- Execute custom install script
+[0.233s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller_parameters/gimbal_controller_parameters.hpp
+[0.233s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller_parameters/validate_gimbal_controller_parameters.hpp
+[0.233s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller//gimbal_controller.xml
+[0.234s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller/gimbal_controller/gimbal_controller.hpp
+[0.234s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller/gimbal_controller/validate_gimbal_controller_parameters.hpp
+[0.234s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/include/gimbal_controller/gimbal_controller/visibility_control.h
+[0.234s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/library_path.sh
+[0.234s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/library_path.dsv
+[0.234s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/package_run_dependencies/gimbal_controller
+[0.234s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/parent_prefix_path/gimbal_controller
+[0.235s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/ament_prefix_path.sh
+[0.235s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/ament_prefix_path.dsv
+[0.235s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/path.sh
+[0.235s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/environment/path.dsv
+[0.235s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.bash
+[0.235s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.sh
+[0.235s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.zsh
+[0.236s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/local_setup.dsv
+[0.236s] -- Symlinking: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/package.dsv
+[0.245s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/packages/gimbal_controller
+[0.245s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gimbal_controller
+[0.245s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/ament_cmake_export_targets-extras.cmake
+[0.245s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.245s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.245s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.246s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/gimbal_controllerConfig.cmake
+[0.246s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/gimbal_controllerConfig-version.cmake
+[0.246s] -- Up-to-date symlink: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/package.xml
+[0.246s] -- Up-to-date: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/export_gimbal_controllerExport.cmake
+[0.246s] -- Up-to-date: /home/yuan/rm/code/Ros/my_ros2_control/install/gimbal_controller/share/gimbal_controller/cmake/export_gimbal_controllerExport-debug.cmake
+[0.248s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller

@@ -1,0 +1,108 @@
+In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/can_instance.hpp:12[m[K,
+                 from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:1[m[K:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:6:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+    6 | [01;35m[Ktypedef[m[K enum Motor_Type
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:11:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   11 | [01;35m[Ktypedef[m[K struct Motor_Data_Real
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:20:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   20 | [01;35m[Ktypedef[m[K struct Motor_Data_Relate
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:27:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   27 | [01;35m[Ktypedef[m[K struct Motor_Data_Set
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:[m[K In constructor ‘[01m[KCan_Instance::Can_Instance(std::string, const char*, uint16_t)[m[K’:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:15:21:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_port[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   15 |     serverAddr_ = {0[01;35m[K}[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:15:21:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_addr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:15:21:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_in::sin_zero[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:[m[K In member function ‘[01m[Kvoid Can_Instance::Write()[m[K’:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/can_instance.cpp:109:33:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K255[m[K’ to ‘[01m[K'\37777777777'[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+  109 |         write_buf_[4] = [01;35m[K(0x1ff) & 0xff[m[K;
+      |                         [01;35m[K~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:1[m[K:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:6:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+    6 | [01;35m[Ktypedef[m[K enum Motor_Type
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:11:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   11 | [01;35m[Ktypedef[m[K struct Motor_Data_Real
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:20:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   20 | [01;35m[Ktypedef[m[K struct Motor_Data_Relate
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/motor_instance.hpp:27:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   27 | [01;35m[Ktypedef[m[K struct Motor_Data_Set
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:[m[K In member function ‘[01m[Kvoid Motor_Instance::Send_Data(uint8_t*)[m[K’:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:45:22:[m[K [01;35m[Kwarning: [m[Kcomparison of constant ‘[01m[K516[m[K’ with boolean expression is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbool-compare-Wbool-compare]8;;[m[K]
+   45 |     if ([01;35m[K0x201 <= id_ <= 0x204[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:45:15:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   45 |     if ([01;35m[K0x201 <= id_[m[K <= 0x204)
+      |         [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:50:27:[m[K [01;35m[Kwarning: [m[Kcomparison of constant ‘[01m[K520[m[K’ with boolean expression is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbool-compare-Wbool-compare]8;;[m[K]
+   50 |     else if ([01;35m[K0x205 <= id_ <= 0x208[m[K)
+      |              [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor_instance.cpp:50:20:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   50 |     else if ([01;35m[K0x205 <= id_[m[K <= 0x208)
+      |              [01;35m[K~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:20[m[K:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn motor_interface::Motor::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:42:58:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   42 |       RCLCPP_INFO(rclcpp::get_logger("motor_interface"), [01;35m[K"joint.command_interfaces.size=%d \n"[m[K, [32m[Kjoint.command_interfaces.size()[m[K);
+      |                                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                              [32m[K|[m[K
+      |                                                                                                                              [32m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:42:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   42 |       RCLCPP_INFO(rclcpp::get_logger("motor_interface"), "joint.command_interfaces.size=[01;36m[K%d[m[K \n", joint.command_interfaces.size());
+      |                                                                                         [01;36m[K~^[m[K
+      |                                                                                          [01;36m[K|[m[K
+      |                                                                                          [01;36m[Kint[m[K
+      |                                                                                         [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:20[m[K:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:45:58:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   45 |       RCLCPP_INFO(rclcpp::get_logger("motor_interface"), [01;35m[K"joint.state_interfaces.size=%d \n"[m[K, [32m[Kjoint.state_interfaces.size()[m[K);
+      |                                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                          [32m[K|[m[K
+      |                                                                                                                          [32m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:45:88:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   45 |       RCLCPP_INFO(rclcpp::get_logger("motor_interface"), "joint.state_interfaces.size=[01;36m[K%d[m[K \n", joint.state_interfaces.size());
+      |                                                                                       [01;36m[K~^[m[K
+      |                                                                                        [01;36m[K|[m[K
+      |                                                                                        [01;36m[Kint[m[K
+      |                                                                                       [32m[K%ld[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> motor_interface::Motor::export_state_interfaces()[m[K’:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:66:70:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_states_[m[K’ was not declared in this scope
+   66 |           info_.joints[i].name, hardware_interface::HW_IF_POSITION, &[01;31m[Khw_states_[m[K[i]));
+      |                                                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> motor_interface::Motor::export_command_interfaces()[m[K’:
+[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:79:70:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_commands_[m[K’ was not declared in this scope
+   79 |           info_.joints[i].name, hardware_interface::HW_IF_POSITION, &[01;31m[Khw_commands_[m[K[i]));
+      |                                                                      [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/motor_interface.dir/build.make:90：CMakeFiles/motor_interface.dir/src/motor.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:176：CMakeFiles/motor_interface.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

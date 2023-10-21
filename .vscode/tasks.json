@@ -1,0 +1,76 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "new ament_cmake package",
+			"detail": "Create a new ROS cpp package from a template.",
+			"type": "shell",
+			"command": "ros2 pkg create --destination-directory src --build-type ament_cmake ${input:package}",
+			"problemMatcher": []
+		},
+		{
+			"label": "install dependencies",
+			"detail": "Install all dependencies specified in the workspaces package.xml files.",
+			"type": "shell",
+			"command": "sudo apt-get update && rosdep update && rosdep install --from-paths src --ignore-src -y",
+			"problemMatcher": []
+		},
+		{
+			"label": "new ament_cmake package_node",
+			"detail": "Create a new ROS cpp node from a template.",
+			"type": "shell",
+			"command": "ros2 pkg create --destination-directory src --build-type ament_cmake --node-name ${input:node} ${input:package}",
+			"problemMatcher": []
+		},
+		{
+			"label": "colcon_build_all",
+			"detail": "colcon 构建",
+			"type": "shell",
+			"command": "colcon build",
+			"problemMatcher": []
+		},
+		{
+			"label": "colcon_build_certain_package",
+			"detail": "colcon 构建",
+			"type": "shell",
+			"command": "cd ${workspaceFolder} && colcon build --packages-select ${input:package}",
+			"problemMatcher": []
+		},
+		{
+			"label": "colcon: build",
+			"command": "source ${workspaceFolder}/install/local_setup.bash && cd ${workspaceFolder} && colcon build --symlink-install --cmake-args  -DCMAKE_EXPORT_COMPILE_COMMANDS=1 && source ${workspaceFolder}/install/local_setup.bash ",
+			"type": "shell",
+			"args": []
+		},
+		{
+			"label": "debug_server",
+			//"command": "source ${workspaceFolder}/install/local_setup.bash && colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=1 && source ${workspaceFolder}/install/local_setup.bash && ros2 run --prefix 'gdbserver localhost:3000' ${input:package}  ${input:node}",
+			"command": "source ${workspaceFolder}/install/local_setup.bash && cd ${workspaceFolder} && colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=1 && source ${workspaceFolder}/install/local_setup.bash && ros2 run --prefix 'gdbserver localhost:3000' ins_recieve_pack ins_recieve_node",
+			"type": "shell",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"problemMatcher": "$catkin-cmake",
+		}
+	],
+	"inputs": [
+		{
+			"id": "package",
+			"type": "promptString",
+			"description": "Package name"
+		},
+		{
+			"id": "node",
+			"type": "promptString",
+			"description": "Node name"
+		}
+	]
+}
+//colcon build --symlink-install --event-handlers console_cohesion+-base-paths - /home/yuan/rm/code/Ros/wS_Ins --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo

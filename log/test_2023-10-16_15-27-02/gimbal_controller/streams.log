@@ -1,0 +1,148 @@
+[0.087s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller': /usr/bin/ctest -C RelWithDebInfo -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.094s] UpdateCTestConfiguration  from :/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/CTestConfiguration.ini
+[0.094s] Parse Config file:/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/CTestConfiguration.ini
+[0.094s]    Site: yuan
+[0.094s]    Build name: (empty)
+[0.094s]  Add coverage exclude regular expressions.
+[0.094s] Create new tag: 20231016-0727 - Experimental
+[0.095s] UpdateCTestConfiguration  from :/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/CTestConfiguration.ini
+[0.095s] Parse Config file:/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/CTestConfiguration.ini
+[0.095s] Test project /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller
+[0.095s] Constructing a list of tests
+[0.095s] Done constructing a list of tests
+[0.095s] Updating test list for fixtures
+[0.095s] Added 0 tests to meet fixture requirements
+[0.095s] Checking test dependency graph...
+[0.095s] Checking test dependency graph end
+[0.095s] test 1
+[0.095s]     Start 1: test_load_gimbal_controller
+[0.096s] 
+[0.096s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_load_gimbal_controller.gtest.xml" "--package-name" "gimbal_controller" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/ament_cmake_gmock/test_load_gimbal_controller.txt" "--command" "/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_load_gimbal_controller" "--gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_load_gimbal_controller.gtest.xml"
+[0.096s] 1: Test timeout computed to be: 60
+[0.140s] 1: -- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller':
+[0.140s] 1:  - /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_load_gimbal_controller --gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_load_gimbal_controller.gtest.xml
+[0.146s] 1: Running main() from gmock_main.cc
+[0.146s] 1: [==========] Running 1 test from 1 test suite.
+[0.146s] 1: [----------] Global test environment set-up.
+[0.146s] 1: [----------] 1 test from TestLoadGimbalController
+[0.146s] 1: [ RUN      ] TestLoadGimbalController.load_controller
+[0.151s] 1: [INFO] [1697441222.303332032] [resource_manager]: Loading hardware 'TestActuatorHardware' 
+[0.152s] 1: [INFO] [1697441222.304090551] [resource_manager]: Initialize hardware 'TestActuatorHardware' 
+[0.152s] 1: [INFO] [1697441222.304106965] [resource_manager]: Successful initialization of hardware 'TestActuatorHardware'
+[0.152s] 1: [INFO] [1697441222.304118699] [resource_manager]: Loading hardware 'TestSensorHardware' 
+[0.152s] 1: [INFO] [1697441222.304170594] [resource_manager]: Initialize hardware 'TestSensorHardware' 
+[0.153s] 1: [INFO] [1697441222.304181699] [resource_manager]: Successful initialization of hardware 'TestSensorHardware'
+[0.153s] 1: [INFO] [1697441222.304189662] [resource_manager]: Loading hardware 'TestSystemHardware' 
+[0.153s] 1: [INFO] [1697441222.304237925] [resource_manager]: Initialize hardware 'TestSystemHardware' 
+[0.153s] 1: [INFO] [1697441222.304251195] [resource_manager]: Successful initialization of hardware 'TestSystemHardware'
+[0.166s] 1: [WARN] [1697441222.317692000] [test_controller_manager]: 'update_rate' parameter not set, using default value.
+[0.168s] 1: [INFO] [1697441222.320058705] [test_controller_manager]: Loading controller 'test_gimbal_controller'
+[0.172s] 1: Exception thrown during controller's init with message: Invalid value set during initialization for parameter 'joints': Parameter 'joints' cannot be empty 
+[0.172s] 1: [ERROR] [1697441222.323848577] [test_controller_manager]: Could not initialize the controller named 'test_gimbal_controller'
+[0.176s] 1: [       OK ] TestLoadGimbalController.load_controller (30 ms)
+[0.176s] 1: [----------] 1 test from TestLoadGimbalController (30 ms total)
+[0.176s] 1: 
+[0.176s] 1: [----------] Global test environment tear-down
+[0.176s] 1: [==========] 1 test from 1 test suite ran. (30 ms total)
+[0.176s] 1: [  PASSED  ] 1 test.
+[0.279s] 1: -- run_test.py: return code 0
+[0.279s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_load_gimbal_controller.gtest.xml'
+[0.279s] 1: -- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_load_gimbal_controller.gtest.xml'
+[0.287s] 1/3 Test #1: test_load_gimbal_controller .........   Passed    0.19 sec
+[0.287s] test 2
+[0.287s]     Start 2: test_gimbal_controller
+[0.287s] 
+[0.287s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller.gtest.xml" "--package-name" "gimbal_controller" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller.txt" "--command" "/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_gimbal_controller" "--ros-args" "--params-file" "/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/gimbal_controller_params.yaml" "--" "--gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller.gtest.xml"
+[0.287s] 2: Test timeout computed to be: 60
+[0.333s] 2: -- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller':
+[0.333s] 2:  - /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_gimbal_controller --ros-args --params-file /home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/gimbal_controller_params.yaml -- --gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller.gtest.xml
+[0.344s] 2: [==========] Running 11 tests from 1 test suite.
+[0.344s] 2: [----------] Global test environment set-up.
+[0.344s] 2: [----------] 11 tests from GimbalControllerTest
+[0.344s] 2: [ RUN      ] GimbalControllerTest.all_parameters_set_configure_success
+[0.362s] 2: [INFO] [1697441222.513894000] [test_gimbal_controller]: configure successful
+[0.366s] 2: [       OK ] GimbalControllerTest.all_parameters_set_configure_success (23 ms)
+[0.366s] 2: [ RUN      ] GimbalControllerTest.check_exported_intefaces
+[0.375s] 2: [INFO] [1697441222.527109414] [test_gimbal_controller]: configure successful
+[0.379s] 2: [       OK ] GimbalControllerTest.check_exported_intefaces (13 ms)
+[0.379s] 2: [ RUN      ] GimbalControllerTest.activate_success
+[0.389s] 2: [INFO] [1697441222.540578786] [test_gimbal_controller]: configure successful
+[0.393s] 2: [       OK ] GimbalControllerTest.activate_success (13 ms)
+[0.393s] 2: [ RUN      ] GimbalControllerTest.update_success
+[0.401s] 2: [INFO] [1697441222.553322605] [test_gimbal_controller]: configure successful
+[0.406s] 2: [       OK ] GimbalControllerTest.update_success (13 ms)
+[0.406s] 2: [ RUN      ] GimbalControllerTest.deactivate_success
+[0.415s] 2: [INFO] [1697441222.566349158] [test_gimbal_controller]: configure successful
+[0.419s] 2: [       OK ] GimbalControllerTest.deactivate_success (13 ms)
+[0.419s] 2: [ RUN      ] GimbalControllerTest.reactivate_success
+[0.428s] 2: [INFO] [1697441222.579833685] [test_gimbal_controller]: configure successful
+[0.432s] 2: [       OK ] GimbalControllerTest.reactivate_success (13 ms)
+[0.432s] 2: [ RUN      ] GimbalControllerTest.test_setting_slow_mode_service
+[0.441s] 2: [INFO] [1697441222.593145765] [test_gimbal_controller]: configure successful
+[0.445s] 2: [       OK ] GimbalControllerTest.test_setting_slow_mode_service (14 ms)
+[0.445s] 2: [ RUN      ] GimbalControllerTest.test_update_logic_fast
+[0.454s] 2: [INFO] [1697441222.605839366] [test_gimbal_controller]: configure successful
+[0.460s] 2: [       OK ] GimbalControllerTest.test_update_logic_fast (14 ms)
+[0.460s] 2: [ RUN      ] GimbalControllerTest.test_update_logic_slow
+[0.469s] 2: [INFO] [1697441222.620701800] [test_gimbal_controller]: configure successful
+[0.474s] 2: [       OK ] GimbalControllerTest.test_update_logic_slow (14 ms)
+[0.474s] 2: [ RUN      ] GimbalControllerTest.publish_status_success
+[0.483s] 2: [INFO] [1697441222.634768768] [test_gimbal_controller]: configure successful
+[0.491s] 2: [       OK ] GimbalControllerTest.publish_status_success (17 ms)
+[0.491s] 2: [ RUN      ] GimbalControllerTest.receive_message_and_publish_updated_status
+[0.499s] 2: [INFO] [1697441222.651004289] [test_gimbal_controller]: configure successful
+[1.003s] 2: unknown file: Failure
+[1.003s] 2: C++ exception with description "publishing to /test_gimbal_controller/commands but no node subscribes to it" thrown in the test body.
+[1.007s] 2: [  FAILED  ] GimbalControllerTest.receive_message_and_publish_updated_status (516 ms)
+[1.007s] 2: [----------] 11 tests from GimbalControllerTest (663 ms total)
+[1.007s] 2: 
+[1.007s] 2: [----------] Global test environment tear-down
+[1.007s] 2: [==========] 11 tests from 1 test suite ran. (663 ms total)
+[1.007s] 2: [  PASSED  ] 10 tests.
+[1.007s] 2: [  FAILED  ] 1 test, listed below:
+[1.007s] 2: [  FAILED  ] GimbalControllerTest.receive_message_and_publish_updated_status
+[1.007s] 2: 
+[1.007s] 2:  1 FAILED TEST
+[1.110s] 2: -- run_test.py: return code 1
+[1.110s] 2: -- run_test.py: inject classname prefix into gtest result file '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller.gtest.xml'
+[1.111s] 2: -- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller.gtest.xml'
+[1.121s] 2/3 Test #2: test_gimbal_controller ..............***Failed    0.83 sec
+[1.121s] test 3
+[1.121s]     Start 3: test_gimbal_controller_preceeding
+[1.121s] 
+[1.121s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller_preceeding.gtest.xml" "--package-name" "gimbal_controller" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller_preceeding.txt" "--command" "/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_gimbal_controller_preceeding" "--ros-args" "--params-file" "/home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/gimbal_controller_preceeding_params.yaml" "--" "--gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller_preceeding.gtest.xml"
+[1.121s] 3: Test timeout computed to be: 60
+[1.165s] 3: -- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller':
+[1.165s] 3:  - /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_gimbal_controller_preceeding --ros-args --params-file /home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/gimbal_controller_preceeding_params.yaml -- --gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller_preceeding.gtest.xml
+[1.176s] 3: [==========] Running 2 tests from 1 test suite.
+[1.176s] 3: [----------] Global test environment set-up.
+[1.176s] 3: [----------] 2 tests from GimbalControllerTest
+[1.176s] 3: [ RUN      ] GimbalControllerTest.all_parameters_set_configure_success
+[1.193s] 3: [INFO] [1697441223.345055093] [test_gimbal_controller]: configure successful
+[1.197s] 3: [       OK ] GimbalControllerTest.all_parameters_set_configure_success (22 ms)
+[1.197s] 3: [ RUN      ] GimbalControllerTest.check_exported_intefaces
+[1.206s] 3: [INFO] [1697441223.357766231] [test_gimbal_controller]: configure successful
+[1.210s] 3: [       OK ] GimbalControllerTest.check_exported_intefaces (12 ms)
+[1.210s] 3: [----------] 2 tests from GimbalControllerTest (34 ms total)
+[1.210s] 3: 
+[1.210s] 3: [----------] Global test environment tear-down
+[1.210s] 3: [==========] 2 tests from 1 test suite ran. (34 ms total)
+[1.210s] 3: [  PASSED  ] 2 tests.
+[1.313s] 3: -- run_test.py: return code 0
+[1.313s] 3: -- run_test.py: inject classname prefix into gtest result file '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller_preceeding.gtest.xml'
+[1.313s] 3: -- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller_preceeding.gtest.xml'
+[1.320s] 3/3 Test #3: test_gimbal_controller_preceeding ...   Passed    0.20 sec
+[1.320s] 
+[1.320s] 67% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 3
+[1.320s] 
+[1.321s] Label Time Summary:
+[1.321s] gmock    =   0.19 sec*proc (1 test)
+[1.321s] 
+[1.321s] Total Test time (real) =   1.23 sec
+[1.321s] 
+[1.321s] The following tests FAILED:
+[1.321s] 	[0;31m  2 - test_gimbal_controller (Failed)[0;0m
+[1.323s] Errors while running CTest
+[1.324s] Output from these tests are in: /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/Testing/Temporary/LastTest.log
+[1.324s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[1.326s] Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller' returned '8': /usr/bin/ctest -C RelWithDebInfo -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

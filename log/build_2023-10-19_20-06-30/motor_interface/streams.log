@@ -1,0 +1,5 @@
+[0.103s] Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
+[0.152s] [ 45%] Built target gmock
+[0.152s] [ 45%] Built target gmock_main
+[0.155s] [ 81%] Built target motor_interface
+[0.173s] [100%] Built target test_motor

@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (motor_interface) JobQueued: {'identifier': 'motor_interface', 'dependencies': OrderedDict([('motor_interface', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface')])}
+[0.000482] (motor_interface) JobStarted: {'identifier': 'motor_interface'}
+[0.062163] (motor_interface) Command: {'cmd': ['/usr/bin/ctest', '-C', 'RelWithDebInfo', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface', 'env': OrderedDict([('RAW_TERMINAL_COLOR_LIGHT_CYAN', '\x1b[1;36m'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yuan'), ('XDG_SEAT', 'seat0'), ('TERMINAL_COLOR_USER_INPUT_DECISION', '\\e[0;35m'), ('SSH_AGENT_PID', '1212'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('TERMINAL_COLOR_GREEN', '\\e[0;32m'), ('RAW_TERMINAL_COLOR_WHITE', '\x1b[1;37m'), ('RAW_TERMINAL_COLOR_GRAY', '\x1b[1;30m'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('ROS_WS_CACHE_SOURCED_TIME', '0'), ('OLDPWD', '/home/yuan/rm/code/Ros/my_ros2_control'), ('TERM_PROGRAM_VERSION', '1.83.0'), ('DESKTOP_SESSION', 'xfce'), ('TERMINAL_COLOR_LIGHT_GREEN', '\\e[1;32m'), ('RAW_TERMINAL_COLOR_BLACK', '\x1b[0;30m'), ('RAW_TERMINAL_COLOR_LIGHT_GRAY', '\x1b[0;37m'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('TERMINAL_COLOR_BLUE', '\\e[0;34m'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('TERMINAL_COLOR_RED', '\\e[0;31m'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINAL_COLOR_LIGHT_BLUE', '\\e[1;34m'), ('TERMINAL_COLOR_CYAN', '\\e[0;36m'), ('RAW_TERMINAL_COLOR_BROWN', '\x1b[0;33m'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8671'), ('TERMINAL_COLOR_LIGHT_RED', '\\e[1;31m'), ('RAW_TERMINAL_COLOR_PURPLE', '\x1b[0;35m'), ('COLCON_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install'), ('ROS_DISTRO', 'humble'), ('TERMINAL_COLOR_NC', '\\e[0m'), ('GTK_IM_MODULE', 'fcitx'), ('TERMINAL_COLOR_LIGHT_CYAN', '\\e[1;36m'), ('LOGNAME', 'yuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RAW_TERMINAL_COLOR_LIGHT_PURPLE', '\x1b[1;35m'), ('RAW_TERMINAL_COLOR_YELLOW', '\x1b[1;33m'), ('TERMINAL_COLOR_USER_CONFIRMATION', '\\e[0;34m'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('TERMINAL_COLOR_WHITE', '\\e[1;37m'), ('TERMINAL_COLOR_GRAY', '\\e[1;30m'), ('PATH', '/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/home/yuan/rm/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yuan/.fzf/bin'), ('SESSION_MANAGER', 'local/yuan:@/tmp/.ICE-unix/946,unix/yuan:/tmp/.ICE-unix/946'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('RTW_COLOR_NOTIFY_USER', '\\e[1;33m'), ('TERMINAL_COLOR_LIGHT_GRAY', '\\e[0;37m'), ('TERMINAL_COLOR_BLACK', '\\e[0;30m'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/yuan/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-be293a297e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXU0irZW/agent.1211'), ('GSETTINGS_SCHEMA_DIR', '/home/yuan/data'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/yuan'), ('AMENT_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('SHELL', '/bin/bash'), ('TERMINAL_COLOR_BROWN', '\\e[0;33m'), ('ROS_WS', '/home/yuan/rm/code/Ros/my_ros2_control'), ('QT_ACCESSIBILITY', '1'), ('RAW_TERMINAL_COLOR_GREEN', '\x1b[0;32m'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TERMINAL_COLOR_PURPLE', '\\e[0;35m'), ('RAW_TERMINAL_COLOR_LIGHT_GREEN', '\x1b[1;32m'), ('TERMINAL_COLOR_USER_NOTICE', '\\e[1;33m'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('XDG_VTNR', '7'), ('TERMINAL_COLOR_LIGHT_PURPLE', '\\e[1;35m'), ('TERMINAL_COLOR_YELLOW', '\\e[1;33m'), ('PWD', '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface'), ('RAW_TERMINAL_COLOR_BLUE', '\x1b[0;34m'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('RAW_TERMINAL_COLOR_RED', '\x1b[0;31m'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('RAW_TERMINAL_COLOR_CYAN', '\x1b[0;36m'), ('RAW_TERMINAL_COLOR_LIGHT_BLUE', '\x1b[1;34m'), ('RTW_COLOR_ERROR', '\\e[0;31m'), ('COLCON', '1'), ('RAW_TERMINAL_COLOR_LIGHT_RED', '\x1b[1;31m'), ('CMAKE_PREFIX_PATH', '/home/yuan/rm/code/Ros/my_ros2_control/install/motor_interface'), ('RAW_TERMINAL_COLOR_NC', '\x1b[0m')]), 'shell': False}
+[0.070381] (motor_interface) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/CTestConfiguration.ini\n'}
+[0.070531] (motor_interface) StdoutLine: {'line': b'Parse Config file:/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/CTestConfiguration.ini\n'}
+[0.070611] (motor_interface) StdoutLine: {'line': b'   Site: yuan\n'}
+[0.070713] (motor_interface) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.070788] (motor_interface) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.070859] (motor_interface) StdoutLine: {'line': b'Create new tag: 20231011-1226 - Experimental\n'}
+[0.071053] (motor_interface) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/CTestConfiguration.ini\n'}
+[0.071142] (motor_interface) StdoutLine: {'line': b'Parse Config file:/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/CTestConfiguration.ini\n'}
+[0.071285] (motor_interface) StdoutLine: {'line': b'Test project /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface\n'}
+[0.071412] (motor_interface) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.071477] (motor_interface) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.071539] (motor_interface) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.071599] (motor_interface) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.071657] (motor_interface) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.071713] (motor_interface) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.071771] (motor_interface) StdoutLine: {'line': b'test 1\n'}
+[0.071840] (motor_interface) StdoutLine: {'line': b'    Start 1: test_motor\n'}
+[0.071900] (motor_interface) StdoutLine: {'line': b'\n'}
+[0.071960] (motor_interface) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/test_motor.gtest.xml" "--package-name" "motor_interface" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/ament_cmake_gmock/test_motor.txt" "--command" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_motor" "--gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/test_motor.gtest.xml"\n'}
+[0.072025] (motor_interface) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.099160] (-) TimerEvent: {}
+[0.113208] (motor_interface) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface':\n"}
+[0.113358] (motor_interface) StdoutLine: {'line': b'1:  - /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_motor --gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/test_motor.gtest.xml\n'}
+[0.117979] (motor_interface) StdoutLine: {'line': b'1: Running main() from gmock_main.cc\n'}
+[0.118104] (motor_interface) StdoutLine: {'line': b'1: [==========] Running 1 test from 1 test suite.\n'}
+[0.118182] (motor_interface) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.118252] (motor_interface) StdoutLine: {'line': b'1: [----------] 1 test from TestMotor\n'}
+[0.118322] (motor_interface) StdoutLine: {'line': b'1: [ RUN      ] TestMotor.load_motor_2dof\n'}
+[0.118997] (motor_interface) StdoutLine: {'line': b"1: [INFO] [1697027171.337241831] [resource_manager]: Loading hardware 'Motor2dof' \n"}
+[0.119259] (motor_interface) StdoutLine: {'line': b"1: [INFO] [1697027171.337519744] [resource_manager]: Initialize hardware 'Motor2dof' \n"}
+[0.119360] (motor_interface) StdoutLine: {'line': b"1: [INFO] [1697027171.337534901] [resource_manager]: Successful initialization of hardware 'Motor2dof'\n"}
+[0.119419] (motor_interface) StdoutLine: {'line': b'1: [       OK ] TestMotor.load_motor_2dof (1 ms)\n'}
+[0.119490] (motor_interface) StdoutLine: {'line': b'1: [----------] 1 test from TestMotor (1 ms total)\n'}
+[0.119565] (motor_interface) StdoutLine: {'line': b'1: \n'}
+[0.119649] (motor_interface) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.119707] (motor_interface) StdoutLine: {'line': b'1: [==========] 1 test from 1 test suite ran. (1 ms total)\n'}
+[0.119763] (motor_interface) StdoutLine: {'line': b'1: [  PASSED  ] 1 test.\n'}
+[0.119997] (motor_interface) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.120169] (motor_interface) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/test_motor.gtest.xml'\n"}
+[0.129135] (motor_interface) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/test_motor.gtest.xml'\n"}
+[0.135425] (motor_interface) StdoutLine: {'line': b'1/5 Test #1: test_motor .......................   Passed    0.06 sec\n'}
+[0.135646] (motor_interface) StdoutLine: {'line': b'test 2\n'}
+[0.135731] (motor_interface) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.135799] (motor_interface) StdoutLine: {'line': b'\n'}
+[0.135867] (motor_interface) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/cppcheck.xunit.xml" "--package-name" "motor_interface" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/cppcheck.xunit.xml" "--include_dirs" "/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include"\n'}
+[0.135949] (motor_interface) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.177016] (motor_interface) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface':\n"}
+[0.177179] (motor_interface) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/cppcheck.xunit.xml --include_dirs /home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include\n'}
+[0.199266] (-) TimerEvent: {}
+[0.228450] (motor_interface) StdoutLine: {'line': b'2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.235891] (motor_interface) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.236068] (motor_interface) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/cppcheck.xunit.xml'\n"}
+[0.242326] (motor_interface) StdoutLine: {'line': b'2/5 Test #2: cppcheck .........................   Passed    0.11 sec\n'}
+[0.242548] (motor_interface) StdoutLine: {'line': b'test 3\n'}
+[0.242631] (motor_interface) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[0.242700] (motor_interface) StdoutLine: {'line': b'\n'}
+[0.242767] (motor_interface) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/lint_cmake.xunit.xml" "--package-name" "motor_interface" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/lint_cmake.xunit.xml"\n'}
+[0.242837] (motor_interface) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.284743] (motor_interface) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface':\n"}
+[0.284943] (motor_interface) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/lint_cmake.xunit.xml\n'}
+[0.299367] (-) TimerEvent: {}
+[0.332512] (motor_interface) StdoutLine: {'line': b'3: \n'}
+[0.332693] (motor_interface) StdoutLine: {'line': b'3: No problems found\n'}
+[0.339125] (motor_interface) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.339309] (motor_interface) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/lint_cmake.xunit.xml'\n"}
+[0.345619] (motor_interface) StdoutLine: {'line': b'3/5 Test #3: lint_cmake .......................   Passed    0.10 sec\n'}
+[0.345811] (motor_interface) StdoutLine: {'line': b'test 4\n'}
+[0.345898] (motor_interface) StdoutLine: {'line': b'    Start 4: uncrustify\n'}
+[0.345965] (motor_interface) StdoutLine: {'line': b'\n'}
+[0.346030] (motor_interface) StdoutLine: {'line': b'4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/uncrustify.xunit.xml" "--package-name" "motor_interface" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/uncrustify.xunit.xml"\n'}
+[0.346103] (motor_interface) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.386980] (motor_interface) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface':\n"}
+[0.387157] (motor_interface) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/uncrustify.xunit.xml\n'}
+[0.399455] (-) TimerEvent: {}
+[0.451383] (motor_interface) StdoutLine: {'line': b"4: Code style divergence in file 'src/motor.cpp':\n"}
+[0.451627] (motor_interface) StdoutLine: {'line': b'4: \n'}
+[0.451709] (motor_interface) StdoutLine: {'line': b'4: --- src/motor.cpp\n'}
+[0.451778] (motor_interface) StdoutLine: {'line': b'4: +++ src/motor.cpp.uncrustify\n'}
+[0.451843] (motor_interface) StdoutLine: {'line': b'4: @@ -27,2 +27 @@\n'}
+[0.451906] (motor_interface) StdoutLine: {'line': b'4: -  if (hardware_interface::SystemInterface::on_init(info) != CallbackReturn::SUCCESS)\n'}
+[0.451970] (motor_interface) StdoutLine: {'line': b'4: -  {\n'}
+[0.452032] (motor_interface) StdoutLine: {'line': b'4: +  if (hardware_interface::SystemInterface::on_init(info) != CallbackReturn::SUCCESS) {\n'}
+[0.452094] (motor_interface) StdoutLine: {'line': b'4: @@ -50,5 +49,5 @@\n'}
+[0.452157] (motor_interface) StdoutLine: {'line': b'4: -  for (size_t i = 0; i < info_.joints.size(); ++i)\n'}
+[0.452219] (motor_interface) StdoutLine: {'line': b'4: -  {\n'}
+[0.452279] (motor_interface) StdoutLine: {'line': b'4: -    state_interfaces.emplace_back(hardware_interface::StateInterface(\n'}
+[0.452342] (motor_interface) StdoutLine: {'line': b'4: -      // TODO(anyone): insert correct interfaces\n'}
+[0.452403] (motor_interface) StdoutLine: {'line': b'4: -      info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_states_[i]));\n'}
+[0.452463] (motor_interface) StdoutLine: {'line': b'4: +  for (size_t i = 0; i < info_.joints.size(); ++i) {\n'}
+[0.452523] (motor_interface) StdoutLine: {'line': b'4: +    state_interfaces.emplace_back(\n'}
+[0.452582] (motor_interface) StdoutLine: {'line': b'4: +      hardware_interface::StateInterface(\n'}
+[0.452641] (motor_interface) StdoutLine: {'line': b'4: +        // TODO(anyone): insert correct interfaces\n'}
+[0.452698] (motor_interface) StdoutLine: {'line': b'4: +        info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_states_[i]));\n'}
+[0.452749] (motor_interface) StdoutLine: {'line': b'4: @@ -63,5 +62,5 @@\n'}
+[0.452798] (motor_interface) StdoutLine: {'line': b'4: -  for (size_t i = 0; i < info_.joints.size(); ++i)\n'}
+[0.452847] (motor_interface) StdoutLine: {'line': b'4: -  {\n'}
+[0.452897] (motor_interface) StdoutLine: {'line': b'4: -    command_interfaces.emplace_back(hardware_interface::CommandInterface(\n'}
+[0.452948] (motor_interface) StdoutLine: {'line': b'4: -      // TODO(anyone): insert correct interfaces\n'}
+[0.453002] (motor_interface) StdoutLine: {'line': b'4: -      info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_commands_[i]));\n'}
+[0.453055] (motor_interface) StdoutLine: {'line': b'4: +  for (size_t i = 0; i < info_.joints.size(); ++i) {\n'}
+[0.453107] (motor_interface) StdoutLine: {'line': b'4: +    command_interfaces.emplace_back(\n'}
+[0.453159] (motor_interface) StdoutLine: {'line': b'4: +      hardware_interface::CommandInterface(\n'}
+[0.453230] (motor_interface) StdoutLine: {'line': b'4: +        // TODO(anyone): insert correct interfaces\n'}
+[0.453284] (motor_interface) StdoutLine: {'line': b'4: +        info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_commands_[i]));\n'}
+[0.453334] (motor_interface) StdoutLine: {'line': b'4: \n'}
+[0.453383] (motor_interface) StdoutLine: {'line': b"4: Code style divergence in file 'test/test_motor.cpp':\n"}
+[0.453432] (motor_interface) StdoutLine: {'line': b'4: \n'}
+[0.453482] (motor_interface) StdoutLine: {'line': b'4: --- test/test_motor.cpp\n'}
+[0.453535] (motor_interface) StdoutLine: {'line': b'4: +++ test/test_motor.cpp.uncrustify\n'}
+[0.453586] (motor_interface) StdoutLine: {'line': b'4: @@ -55 +55 @@\n'}
+[0.453636] (motor_interface) StdoutLine: {'line': b'4: -              ros2_control_test_assets::urdf_tail;\n'}
+[0.453698] (motor_interface) StdoutLine: {'line': b'4: +    ros2_control_test_assets::urdf_tail;\n'}
+[0.453779] (motor_interface) StdoutLine: {'line': b'4: \n'}
+[0.453843] (motor_interface) StdoutLine: {'line': b'4: 2 files with code style divergence\n'}
+[0.453904] (motor_interface) StdoutLine: {'line': b"4: No code style divergence in file 'include/motor_interface/motor.hpp'\n"}
+[0.453967] (motor_interface) StdoutLine: {'line': b'4: \n'}
+[0.454028] (motor_interface) StdoutLine: {'line': b"4: No code style divergence in file 'include/motor_interface/visibility_control.h'\n"}
+[0.454089] (motor_interface) StdoutLine: {'line': b'4: \n'}
+[0.458864] (motor_interface) StdoutLine: {'line': b'4: -- run_test.py: return code 1\n'}
+[0.459037] (motor_interface) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/uncrustify.xunit.xml'\n"}
+[0.468704] (motor_interface) StdoutLine: {'line': b'4/5 Test #4: uncrustify .......................***Failed    0.12 sec\n'}
+[0.468962] (motor_interface) StdoutLine: {'line': b'test 5\n'}
+[0.469040] (motor_interface) StdoutLine: {'line': b'    Start 5: xmllint\n'}
+[0.469120] (motor_interface) StdoutLine: {'line': b'\n'}
+[0.469195] (motor_interface) StdoutLine: {'line': b'5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/xmllint.xunit.xml" "--package-name" "motor_interface" "--output-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/xmllint.xunit.xml"\n'}
+[0.469272] (motor_interface) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[0.499557] (-) TimerEvent: {}
+[0.512512] (motor_interface) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface':\n"}
+[0.512668] (motor_interface) StdoutLine: {'line': b'5:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/xmllint.xunit.xml\n'}
+[0.599664] (-) TimerEvent: {}
+[0.699938] (-) TimerEvent: {}
+[0.800244] (-) TimerEvent: {}
+[0.900511] (-) TimerEvent: {}
+[1.000830] (-) TimerEvent: {}
+[1.101142] (-) TimerEvent: {}
+[1.201461] (-) TimerEvent: {}
+[1.286097] (motor_interface) StdoutLine: {'line': b"5: File 'motor_interface.xml' is valid\n"}
+[1.286289] (motor_interface) StdoutLine: {'line': b'5: \n'}
+[1.286365] (motor_interface) StdoutLine: {'line': b"5: File 'package.xml' is valid\n"}
+[1.286437] (motor_interface) StdoutLine: {'line': b'5: \n'}
+[1.286506] (motor_interface) StdoutLine: {'line': b'5: No problems found\n'}
+[1.293385] (motor_interface) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[1.293523] (motor_interface) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/xmllint.xunit.xml'\n"}
+[1.301560] (-) TimerEvent: {}
+[1.302214] (motor_interface) StdoutLine: {'line': b'5/5 Test #5: xmllint ..........................   Passed    0.83 sec\n'}
+[1.302506] (motor_interface) StdoutLine: {'line': b'\n'}
+[1.302666] (motor_interface) StdoutLine: {'line': b'80% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 5\n'}
+[1.302748] (motor_interface) StdoutLine: {'line': b'\n'}
+[1.302820] (motor_interface) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.302916] (motor_interface) StdoutLine: {'line': b'cppcheck      =   0.11 sec*proc (1 test)\n'}
+[1.302985] (motor_interface) StdoutLine: {'line': b'gmock         =   0.06 sec*proc (1 test)\n'}
+[1.303049] (motor_interface) StdoutLine: {'line': b'lint_cmake    =   0.10 sec*proc (1 test)\n'}
+[1.303110] (motor_interface) StdoutLine: {'line': b'linter        =   1.17 sec*proc (4 tests)\n'}
+[1.303172] (motor_interface) StdoutLine: {'line': b'uncrustify    =   0.12 sec*proc (1 test)\n'}
+[1.303254] (motor_interface) StdoutLine: {'line': b'xmllint       =   0.83 sec*proc (1 test)\n'}
+[1.303322] (motor_interface) StdoutLine: {'line': b'\n'}
+[1.303383] (motor_interface) StdoutLine: {'line': b'Total Test time (real) =   1.23 sec\n'}
+[1.303444] (motor_interface) StdoutLine: {'line': b'\n'}
+[1.303505] (motor_interface) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[1.303566] (motor_interface) StdoutLine: {'line': b'\t\x1b[0;31m  4 - uncrustify (Failed)\x1b[0;0m\n'}
+[1.305142] (motor_interface) StderrLine: {'line': b'Errors while running CTest\n'}
+[1.305260] (motor_interface) StderrLine: {'line': b'Output from these tests are in: /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/Testing/Temporary/LastTest.log\n'}
+[1.305336] (motor_interface) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[1.307013] (motor_interface) CommandEnded: {'returncode': 8}
+[1.307827] (motor_interface) TestFailure: {'identifier': 'motor_interface'}
+[1.307870] (motor_interface) JobEnded: {'identifier': 'motor_interface', 'rc': 0}
+[1.308226] (-) EventReactorShutdown: {}

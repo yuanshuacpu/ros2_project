@@ -1,0 +1,55 @@
+-- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller':
+ - /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_gimbal_controller --ros-args --params-file /home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/test/gimbal_controller_params.yaml -- --gtest_output=xml:/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller.gtest.xml
+
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from GimbalControllerTest
+[ RUN      ] GimbalControllerTest.all_parameters_set_configure_success
+[INFO] [1697441222.513894000] [test_gimbal_controller]: configure successful
+[       OK ] GimbalControllerTest.all_parameters_set_configure_success (23 ms)
+[ RUN      ] GimbalControllerTest.check_exported_intefaces
+[INFO] [1697441222.527109414] [test_gimbal_controller]: configure successful
+[       OK ] GimbalControllerTest.check_exported_intefaces (13 ms)
+[ RUN      ] GimbalControllerTest.activate_success
+[INFO] [1697441222.540578786] [test_gimbal_controller]: configure successful
+[       OK ] GimbalControllerTest.activate_success (13 ms)
+[ RUN      ] GimbalControllerTest.update_success
+[INFO] [1697441222.553322605] [test_gimbal_controller]: configure successful
+[       OK ] GimbalControllerTest.update_success (13 ms)
+[ RUN      ] GimbalControllerTest.deactivate_success
+[INFO] [1697441222.566349158] [test_gimbal_controller]: configure successful
+[       OK ] GimbalControllerTest.deactivate_success (13 ms)
+[ RUN      ] GimbalControllerTest.reactivate_success
+[INFO] [1697441222.579833685] [test_gimbal_controller]: configure successful
+[       OK ] GimbalControllerTest.reactivate_success (13 ms)
+[ RUN      ] GimbalControllerTest.test_setting_slow_mode_service
+[INFO] [1697441222.593145765] [test_gimbal_controller]: configure successful
+[       OK ] GimbalControllerTest.test_setting_slow_mode_service (14 ms)
+[ RUN      ] GimbalControllerTest.test_update_logic_fast
+[INFO] [1697441222.605839366] [test_gimbal_controller]: configure successful
+[       OK ] GimbalControllerTest.test_update_logic_fast (14 ms)
+[ RUN      ] GimbalControllerTest.test_update_logic_slow
+[INFO] [1697441222.620701800] [test_gimbal_controller]: configure successful
+[       OK ] GimbalControllerTest.test_update_logic_slow (14 ms)
+[ RUN      ] GimbalControllerTest.publish_status_success
+[INFO] [1697441222.634768768] [test_gimbal_controller]: configure successful
+[       OK ] GimbalControllerTest.publish_status_success (17 ms)
+[ RUN      ] GimbalControllerTest.receive_message_and_publish_updated_status
+[INFO] [1697441222.651004289] [test_gimbal_controller]: configure successful
+unknown file: Failure
+C++ exception with description "publishing to /test_gimbal_controller/commands but no node subscribes to it" thrown in the test body.
+[  FAILED  ] GimbalControllerTest.receive_message_and_publish_updated_status (516 ms)
+[----------] 11 tests from GimbalControllerTest (663 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (663 ms total)
+[  PASSED  ] 10 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] GimbalControllerTest.receive_message_and_publish_updated_status
+
+ 1 FAILED TEST
+
+
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller.gtest.xml'
+-- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/test_results/gimbal_controller/test_gimbal_controller.gtest.xml'

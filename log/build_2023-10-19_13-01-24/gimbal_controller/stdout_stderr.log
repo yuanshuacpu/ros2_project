@@ -1,0 +1,39 @@
+[ 25%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/yuan/rm/code/Ros/my_ros2_control/build/gimbal_controller/gimbal_controller_parameters/include//gimbal_controller_parameters.hpp /home/yuan/rm/code/Ros/my_ros2_control/src/gimbal_controller/src/gimbal_controller.yaml validate_gimbal_controller_parameters.hpp`[0m
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 188, in __init__
+    self.lang_str_value = func(default_value)
+  File "/usr/lib/python3/dist-packages/typeguard.py", line 493, in wrapper
+    check_argument_types(memo)
+  File "/usr/lib/python3/dist-packages/typeguard.py", line 462, in check_argument_types
+    raise TypeError(exc) from None
+TypeError: type of argument "s" must be one of (list, NoneType); got str instead
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/humble/bin/generate_parameter_library_cpp", line 33, in <module>
+    sys.exit(load_entry_point('generate-parameter-library-py==0.3.6', 'console_scripts', 'generate_parameter_library_cpp')())
+  File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_cpp_header.py", line 66, in main
+    run(output_file, yaml_file, validate_header)
+  File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_cpp_header.py", line 45, in run
+    gen_param_struct.parse(yaml_file, validate_header)
+  File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 733, in parse
+    self.parse_dict(self.namespace, doc[self.namespace], [])
+  File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 831, in parse_dict
+    self.parse_dict(key, root_map[key], nested_name)
+  File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 837, in parse_dict
+    self.parse_params(name, root_map, nested_name)
+  File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 741, in parse_params
+    ) = preprocess_inputs(self.language, name, value, nested_name_list)
+  File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 658, in preprocess_inputs
+    code_gen_variable = CodeGenVariable(
+  File "/usr/lib/python3/dist-packages/typeguard.py", line 494, in wrapper
+    retval = func(*args, **kwargs)
+  File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 191, in __init__
+    f"Parameter {param_name} has incorrect type. Expected: {defined_type}, got: {self.get_yaml_type_from_python(default_value)}"
+  File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 206, in get_yaml_type_from_python
+    return self.conversation.python_val_to_yaml_type[str(type(arg[0]))]
+IndexError: string index out of range
+gmake[2]: *** [CMakeFiles/gimbal_controller_parameters.dir/build.make:72：gimbal_controller_parameters/include/gimbal_controller_parameters.hpp] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/gimbal_controller_parameters.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
