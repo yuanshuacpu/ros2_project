@@ -1,7 +1,0 @@
-[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn motor_interface::Motor::on_init(const hardware_interface::HardwareInfo&)[m[K’:
-[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:69:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
-   69 |         [01;35m[K.[m[KserverPort = (uint16_t)std::stoul(info_.hardware_parameters["serverPort"]),
-      |         [01;35m[K^[m[K
-[01m[K/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/src/motor.cpp:70:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
-   70 |         [01;35m[K.[m[KserverIP = info_.hardware_parameters["serverIP"]};
-      |         [01;35m[K^[m[K

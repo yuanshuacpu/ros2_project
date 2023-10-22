@@ -1,4 +1,0 @@
-Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
-Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface -- -j16 -l16
-Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface
-Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface

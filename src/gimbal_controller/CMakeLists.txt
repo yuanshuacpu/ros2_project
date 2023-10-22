@@ -16,7 +16,7 @@ set(THIS_PACKAGE_INCLUDE_DEPENDS
   realtime_tools
   std_srvs
   geometry_msgs
-  tool_pid
+  pid
 )
 
 find_package(ament_cmake REQUIRED)
@@ -31,6 +31,7 @@ generate_parameter_library(gimbal_controller_parameters
   src/gimbal_controller.yaml
   include/gimbal_controller/validate_gimbal_controller_parameters.hpp
 )
+
 file(GLOB ALL_SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 
 add_library(
@@ -43,13 +44,16 @@ target_compile_features(gimbal_controller PUBLIC cxx_std_17)
 
 target_include_directories(gimbal_controller PUBLIC
   "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>"
-  "$<INSTALL_INTERFACE:include/${PROJECT_NAME}>")
+  "$<INSTALL_INTERFACE:include/${PROJECT_NAME}>"
+)
 
-target_link_libraries(gimbal_controller PUBLIC gimbal_controller_parameters)
+# link_directories("/home/yuan/rm/code/Ros/my_ros2_control/install/tool_pid/lib")
+# link_directories("${CMAKE_CURRENT_SOURCE_DIR}/lib")
+target_link_libraries(gimbal_controller
+  PUBLIC gimbal_controller_parameters
+)
 
-target_link_libraries(gimbal_controller PUBLIC tool_pid)
-
-ament_target_dependencies(gimbal_controller ${THIS_PACKAGE_INCLUDE_DEPENDS})
+ament_target_dependencies(gimbal_controller PUBLIC ${THIS_PACKAGE_INCLUDE_DEPENDS})
 
 target_compile_definitions(gimbal_controller PRIVATE "GIMBAL_CONTROLLER_BUILDING_DLL")
 
@@ -59,10 +63,13 @@ pluginlib_export_plugin_description_file(
 install(
   TARGETS
   gimbal_controller gimbal_controller_parameters
+  EXPORT export_gimbal_controller
   RUNTIME DESTINATION bin
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
 )
+
+ament_export_targets(export_gimbal_controller HAS_LIBRARY_TARGET)
 
 install(
   DIRECTORY include/
@@ -78,6 +85,7 @@ ament_export_include_directories(
 ament_export_dependencies(
   ${THIS_PACKAGE_INCLUDE_DEPENDS}
 )
+
 ament_export_libraries(
   gimbal_controller
 )

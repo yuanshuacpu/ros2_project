@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" disabled="0" errors="0" time="0.001" timestamp="2023-10-11T20:26:11" name="AllTests">
-  <testsuite name="TestMotor" tests="1" failures="0" disabled="0" errors="0" time="0.001" timestamp="2023-10-11T20:26:11">
-    <testcase name="load_motor_2dof" status="run" result="completed" time="0.001" timestamp="2023-10-11T20:26:11" classname="motor_interface.TestMotor" />
-  </testsuite>
-</testsuites>

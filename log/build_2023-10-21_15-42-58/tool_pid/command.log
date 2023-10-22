@@ -1,4 +1,0 @@
-Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid -- -j16 -l16
-Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid -- -j16 -l16
-Invoking command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid
-Invoked command in '/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid

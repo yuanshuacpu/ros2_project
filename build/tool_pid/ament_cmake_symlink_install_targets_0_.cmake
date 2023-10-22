@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yuan/rm/code/Ros/my_ros2_control/build/tool_pid/libtool_pid.so" "TARGETS" "tool_pid" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")
