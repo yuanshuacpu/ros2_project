@@ -105,6 +105,7 @@ namespace gimbal_controller
   protected:
     struct GimbalHandle
     {
+
       std::reference_wrapper<const hardware_interface::LoanedStateInterface> feedback_velocity;
       std::reference_wrapper<const hardware_interface::LoanedStateInterface> feedback_position;
 

@@ -22,7 +22,6 @@
 #include "controller_interface/helpers.hpp"
 
 #include "pid/pid.hpp"
-
 namespace
 { // utility
 
@@ -208,10 +207,10 @@ namespace gimbal_controller
 
     if (cmd_subscriber_is_active_)
     {
-      // for (size_t i = 0; i < params_.joints.size(); i++)
-      // {
-      //   gimbal_state_cmd_data_[i].command_effort.get().set_value((double)1000);
-      // }
+      for (size_t i = 0; i < params_.joints.size(); i++)
+      {
+        gimbal_state_cmd_data_[i].command_effort.get().set_value((double)1000);
+      }
     }
 
     return controller_interface::return_type::OK;

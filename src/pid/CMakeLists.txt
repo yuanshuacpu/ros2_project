@@ -5,9 +5,15 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+set(THIS_PACKAGE_INCLUDE_DEPENDS
+  controller_interface
+  ament_cmake
+)
+
 # find dependencies
-find_package(ament_cmake REQUIRED)
-find_package(ament_cmake REQUIRED)
+foreach(Dependency IN ITEMS ${THIS_PACKAGE_INCLUDE_DEPENDS})
+  find_package(${Dependency} REQUIRED)
+endforeach()
 
 file(GLOB ALL_SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 
@@ -18,7 +24,7 @@ add_library(
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
-  "${CMAKE_CURRENT_SOURCE_DIR}/include")
+  "${CMAKE_CURRENT_SOURCE_DIR}/include/pid")
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -34,7 +40,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-ament_target_dependencies(${PROJECT_NAME} ament_cmake)
+ament_target_dependencies(${PROJECT_NAME} ${THIS_PACKAGE_INCLUDE_DEPENDS})
 
 # ament_export_interfaces(export_pid HAS_LIBRARY_TARGET)
 ament_export_include_directories(
@@ -46,7 +52,7 @@ ament_export_libraries(
 )
 
 ament_export_dependencies(
-  ament_cmake
+  ${THIS_PACKAGE_INCLUDE_DEPENDS}
 )
 
 install(
