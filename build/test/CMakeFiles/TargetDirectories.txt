@@ -1,9 +1,0 @@
-/home/yuan/rm/code/Ros/my_ros2_control/build/test/CMakeFiles/uninstall.dir
-/home/yuan/rm/code/Ros/my_ros2_control/build/test/CMakeFiles/test_uninstall.dir
-/home/yuan/rm/code/Ros/my_ros2_control/build/test/CMakeFiles/test.dir
-/home/yuan/rm/code/Ros/my_ros2_control/build/test/CMakeFiles/edit_cache.dir
-/home/yuan/rm/code/Ros/my_ros2_control/build/test/CMakeFiles/rebuild_cache.dir
-/home/yuan/rm/code/Ros/my_ros2_control/build/test/CMakeFiles/list_install_components.dir
-/home/yuan/rm/code/Ros/my_ros2_control/build/test/CMakeFiles/install.dir
-/home/yuan/rm/code/Ros/my_ros2_control/build/test/CMakeFiles/install/local.dir
-/home/yuan/rm/code/Ros/my_ros2_control/build/test/CMakeFiles/install/strip.dir

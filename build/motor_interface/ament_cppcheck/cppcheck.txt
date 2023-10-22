@@ -1,8 +1,0 @@
--- run_test.py: invoking following command in '/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface':
- - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/cppcheck.xunit.xml --include_dirs /home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include
-
-cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/test_results/motor_interface/cppcheck.xunit.xml'

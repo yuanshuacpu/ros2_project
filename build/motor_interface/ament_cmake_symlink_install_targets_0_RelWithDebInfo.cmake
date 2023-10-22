@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/libmotor_interface.so" "TARGETS" "motor_interface" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

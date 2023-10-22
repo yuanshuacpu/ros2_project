@@ -1,1 +1,0 @@
-/home/yuan/rm/code/Ros/my_ros2_control/build/motor_interface/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

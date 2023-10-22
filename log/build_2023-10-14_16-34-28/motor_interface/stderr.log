@@ -1,6 +1,0 @@
-[31mCMake Error at CMakeLists.txt:18 (target_include_directories):
-  Cannot specify include directories for target "motor_interface" which is
-  not built by this project.
-
-[0m
-gmake: *** [Makefile:418：cmake_check_build_system] 错误 1

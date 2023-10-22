@@ -1,5 +1,0 @@
-test_load_gimbal_controller 1 0.191703
-test_gimbal_controller 0 0
-test_gimbal_controller_preceeding 1 0.199132
----
-test_gimbal_controller

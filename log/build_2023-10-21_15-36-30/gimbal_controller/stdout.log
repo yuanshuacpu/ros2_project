@@ -1,4 +1,0 @@
-[ 50%] Built target gimbal_controller_parameters
-[ 75%] [32mBuilding CXX object CMakeFiles/gimbal_controller.dir/src/gimbal_controller.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library libgimbal_controller.so[0m
-[100%] Built target gimbal_controller

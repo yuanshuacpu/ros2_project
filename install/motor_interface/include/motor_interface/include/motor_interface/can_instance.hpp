@@ -1,1 +1,0 @@
-/home/yuan/rm/code/Ros/my_ros2_control/src/motor_interface/include/motor_interface/can_instance.hpp
